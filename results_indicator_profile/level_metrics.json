@@ -1,0 +1,12 @@
+{
+  "model": "tfidf_syllable_2-5 + multinomial logistic C=1",
+  "validation_rows": 132,
+  "accuracy": 0.5681818181818182,
+  "mae": 0.6287878787878788,
+  "qwk": 0.5767045454545454,
+  "within1": 0.8560606060606061,
+  "n": 132.0,
+  "training_indicators": 48,
+  "validation_indicators": 11,
+  "linking_source": "/home/leefam/nuri-exp/results/linking/val_row_predictions.csv"
+}

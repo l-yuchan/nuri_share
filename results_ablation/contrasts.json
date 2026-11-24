@@ -1,0 +1,171 @@
+{
+  "seeds": [
+    13,
+    42,
+    73,
+    101,
+    137
+  ],
+  "conditions": [
+    "aligned_raw",
+    "aligned_scaled",
+    "scratch",
+    "shuffled_raw",
+    "shuffled_scaled"
+  ],
+  "validation_groups": 13,
+  "bootstrap": {
+    "samples": 5000,
+    "seed": 20261117,
+    "method": "Paired crossed resampling of training seeds and whole validation groups",
+    "estimand": "Mean per-seed pooled-row accuracy and fixed-five-label Macro-F1",
+    "note": "Exploratory percentile intervals; no multiplicity adjustment; only 13 groups."
+  },
+  "contrasts": [
+    {
+      "name": "scale_aligned",
+      "treatment": "aligned_scaled",
+      "control": "aligned_raw",
+      "accuracy_delta_mean": 0.04177215189873418,
+      "macro_f1_delta_mean": 0.036850613381719154,
+      "accuracy_delta_by_seed": [
+        0.03797468354430378,
+        0.044303797468354444,
+        0.044303797468354444,
+        0.044303797468354444,
+        0.03797468354430378
+      ],
+      "macro_f1_delta_by_seed": [
+        0.03323138903223288,
+        0.03948412461581041,
+        0.03948412461581041,
+        0.03948412461581041,
+        0.032569304028931656
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0763969748858448,
+        0.15952147239263795
+      ],
+      "macro_f1_delta_95_interval": [
+        -0.06407470033996542,
+        0.16372039214012865
+      ]
+    },
+    {
+      "name": "scale_shuffled",
+      "treatment": "shuffled_scaled",
+      "control": "shuffled_raw",
+      "accuracy_delta_mean": 0.07341772151898732,
+      "macro_f1_delta_mean": 0.06829460724463929,
+      "accuracy_delta_by_seed": [
+        0.06329113924050633,
+        0.03164556962025311,
+        0.08227848101265822,
+        0.07594936708860756,
+        0.11392405063291133
+      ],
+      "macro_f1_delta_by_seed": [
+        0.051584502244714225,
+        0.026168312246512948,
+        0.07437194905877131,
+        0.07923876618802295,
+        0.11010950648517503
+      ],
+      "accuracy_delta_95_interval": [
+        -0.04314856711915531,
+        0.194939067536756
+      ],
+      "macro_f1_delta_95_interval": [
+        -0.028362418681240724,
+        0.1779659558038958
+      ]
+    },
+    {
+      "name": "alignment_scaled",
+      "treatment": "aligned_scaled",
+      "control": "shuffled_scaled",
+      "accuracy_delta_mean": 0.0,
+      "macro_f1_delta_mean": -5.9248993253402384e-05,
+      "accuracy_delta_by_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "macro_f1_delta_by_seed": [
+        0.0,
+        0.0004573381931747278,
+        -0.00013120552204115565,
+        0.0001626562778498375,
+        -0.0007850339152504215
+      ],
+      "accuracy_delta_95_interval": [
+        -0.015384615384615441,
+        0.012821637426900631
+      ],
+      "macro_f1_delta_95_interval": [
+        -0.017495382757099793,
+        0.01312961621455424
+      ]
+    },
+    {
+      "name": "alignment_raw",
+      "treatment": "aligned_raw",
+      "control": "shuffled_raw",
+      "accuracy_delta_mean": 0.03164556962025313,
+      "macro_f1_delta_mean": 0.031384744869666734,
+      "accuracy_delta_by_seed": [
+        0.025316455696202556,
+        -0.012658227848101333,
+        0.03797468354430378,
+        0.03164556962025311,
+        0.07594936708860756
+      ],
+      "macro_f1_delta_by_seed": [
+        0.018353113212481342,
+        -0.012858474176122736,
+        0.034756618920919746,
+        0.03991729785006237,
+        0.07675516854099296
+      ],
+      "accuracy_delta_95_interval": [
+        -0.033333333333333326,
+        0.10213399189463009
+      ],
+      "macro_f1_delta_95_interval": [
+        -0.03063032704693037,
+        0.09572281097060963
+      ]
+    },
+    {
+      "name": "scaled_vs_scratch",
+      "treatment": "aligned_scaled",
+      "control": "scratch",
+      "accuracy_delta_mean": -0.020253164556962067,
+      "macro_f1_delta_mean": -0.01972313382166906,
+      "accuracy_delta_by_seed": [
+        -0.012658227848101333,
+        -0.025316455696202556,
+        -0.012658227848101333,
+        -0.025316455696202556,
+        -0.025316455696202556
+      ],
+      "macro_f1_delta_by_seed": [
+        -0.01053465133500242,
+        -0.025307635075823787,
+        -0.011756284928729044,
+        -0.0261265889542055,
+        -0.024890508814584544
+      ],
+      "accuracy_delta_95_interval": [
+        -0.05342061462266071,
+        0.01224552397646167
+      ],
+      "macro_f1_delta_95_interval": [
+        -0.05511251462448212,
+        0.008986057334876929
+      ]
+    }
+  ]
+}

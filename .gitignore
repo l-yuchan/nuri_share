@@ -1,0 +1,19 @@
+.venv/
+.venv-semantic/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# Generated weights and caches stay out of version control.
+# The pretraining corpus text and its manifest are tracked so the fastText
+# pipeline can be rebuilt from the shipped data alone.
+artifacts/*
+!artifacts/corpus/
+!artifacts/corpus/sentences.txt
+!artifacts/corpus/manifest.json
+!artifacts/README.md
+
+# Scratch outputs from verification runs.
+/tmp/

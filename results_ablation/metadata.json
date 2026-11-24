@@ -1,0 +1,95 @@
+{
+  "python": "3.12.13",
+  "versions": {
+    "fasttext-wheel": "0.9.2",
+    "numpy": "2.5.5",
+    "scikit-learn": "1.9.1"
+  },
+  "seeds": [
+    13,
+    42,
+    73,
+    101,
+    137
+  ],
+  "train_rows": 666,
+  "val_rows": 158,
+  "val_groups": 13,
+  "sha256": {
+    "train.csv": "810703446f63c7f3ceafff783469e0bcdfce2729291321ba611d7662b3640c2c",
+    "val.csv": "21c2976c7aa2ec253fc61acb3c74b635faff8db40c35b3c5088e95fc9aac6982"
+  },
+  "original_vectors_sha256": "df92d17e0bae1bdfc9e361f1a31495ad9d0ef02e77d9873bdcad8b11602cb786",
+  "settings": {
+    "dim": 100,
+    "epoch": 100,
+    "lr": 0.5,
+    "wordNgrams": 2,
+    "minn": 2,
+    "maxn": 5,
+    "bucket": 200000,
+    "thread": 1
+  },
+  "initialization": [
+    {
+      "seed": 13,
+      "native_median_word_norm": 0.0576409213244915,
+      "raw_median_word_norm": 8.543025997399727,
+      "vector_hashes": {
+        "aligned_raw": "0288d4ec60ae13fdce1bef6f9e9a068e921159b5375081ca6c19f5772aae2d97",
+        "aligned_scaled": "2ecfb6424ed467aea78a66c025aa6c5f753de873ed2ae84fb5bb1281f7b5e397",
+        "shuffled_raw": "49bf8b2f8edf0bf66f0a825fd3c9bc398349fc97573ba8e9023996510db54e9c",
+        "shuffled_scaled": "da42c40111e53808df2ee6289bc1ddb6db47709a0ee8d63447c7c9dd88107573"
+      }
+    },
+    {
+      "seed": 42,
+      "native_median_word_norm": 0.057594120502471924,
+      "raw_median_word_norm": 8.543025997399727,
+      "vector_hashes": {
+        "aligned_raw": "0288d4ec60ae13fdce1bef6f9e9a068e921159b5375081ca6c19f5772aae2d97",
+        "aligned_scaled": "bf1dca437a322860d9915fe52e87ab39405a12269c370300380df5213a58d6b0",
+        "shuffled_raw": "6428770456b290c2d72c77b02a6bd203cb054ca2f21cedcefea4ea71711e003a",
+        "shuffled_scaled": "74a32b3f6fbb5eb9b7533e8974b160601f5af5b1e2f7cb1ed120aee2a53961f4"
+      }
+    },
+    {
+      "seed": 73,
+      "native_median_word_norm": 0.057697396725416183,
+      "raw_median_word_norm": 8.543025997399727,
+      "vector_hashes": {
+        "aligned_raw": "0288d4ec60ae13fdce1bef6f9e9a068e921159b5375081ca6c19f5772aae2d97",
+        "aligned_scaled": "80a0532e2634636dcfeebe01b22cd73e66ba23bcb31ab6899ed3ed8cb684975e",
+        "shuffled_raw": "1159b19ee466ad9fce32ad23eb582a2771afc5b2096714de03057c53695d909b",
+        "shuffled_scaled": "9f9e69e8665588e02b636320e76bece199eff843e75bb68c88033ab47c085f6e"
+      }
+    },
+    {
+      "seed": 101,
+      "native_median_word_norm": 0.057713523507118225,
+      "raw_median_word_norm": 8.543025997399727,
+      "vector_hashes": {
+        "aligned_raw": "0288d4ec60ae13fdce1bef6f9e9a068e921159b5375081ca6c19f5772aae2d97",
+        "aligned_scaled": "91879fa6e879608c97d8684611cd12810d5d06fcc23d8ee92fb998876652361f",
+        "shuffled_raw": "e77149a9e3d9990ba0fbf7388b5216fe098aeb8ccb88feab94f112bace3d60e7",
+        "shuffled_scaled": "78ab0540cc03a035e3023b219cd680d8d141e6780d7538c5164856924f69c302"
+      }
+    },
+    {
+      "seed": 137,
+      "native_median_word_norm": 0.05770944058895111,
+      "raw_median_word_norm": 8.543025997399727,
+      "vector_hashes": {
+        "aligned_raw": "0288d4ec60ae13fdce1bef6f9e9a068e921159b5375081ca6c19f5772aae2d97",
+        "aligned_scaled": "265ef35ade9f44536c613ae597a734f53349f29cd637d9365cbee505cdfe1894",
+        "shuffled_raw": "cedb5f9e0c0f369aaa0c57be1704924483418ca0473455105511a49d2b725682",
+        "shuffled_scaled": "03b3c95dc96ee94061ddd738ce3e940f1d5edfa55af39b85aaf243d78c1927d6"
+      }
+    }
+  ],
+  "scale": "one global positive scalar matching native median non-EOS word-row norm",
+  "shuffle": "seeded random single cycle over all non-EOS rows; EOS stays at its own row",
+  "fixed": "same pretrained corpus vectors, train/val split, word IDs and hyperparameters",
+  "limitation": "Permutation changes word-to-norm and word-to-direction links together.",
+  "evaluation": "Post-hoc exploratory validation ablation; not independent test performance."
+}

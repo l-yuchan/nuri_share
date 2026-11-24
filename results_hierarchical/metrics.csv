@@ -1,0 +1,9 @@
+﻿task,setting,n,accuracy,macro_f1,top2_accuracy,mae,qwk
+area,svm_decision_reference,158,0.689873,0.679834,0.873418,,
+area,calibrated_svm_system,158,0.71519,0.708695,0.892405,,
+area_kicce,calibrated_svm_system,132,0.712121,0.697345,0.901515,,
+level,argmax,132,0.560606,,,0.636364,0.576271
+level,expected_rounded,132,0.416667,,,0.666667,0.466019
+level,global_mean_baseline,132,0.25,,,1.0,0.0
+level,oracle_area_mean_baseline,132,0.25,,,1.0,0.0
+level,length_only_baseline,132,0.401515,,,1.007576,0.297927

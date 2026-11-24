@@ -1,0 +1,35 @@
+{
+  "seed": 20261121,
+  "children_per_cell": 500,
+  "items_per_child": [
+    4,
+    8,
+    11
+  ],
+  "observations": [
+    1,
+    2,
+    3
+  ],
+  "methods": [
+    "aggregate",
+    "single"
+  ],
+  "level_model": {
+    "type": "multinomial_logistic",
+    "c": 1.0,
+    "features": "syllable_2-5"
+  },
+  "python": "3.12.13",
+  "sklearn": "1.9.1",
+  "data_hashes": {
+    "train.csv": "810703446f63c7f3ceafff783469e0bcdfce2729291321ba611d7662b3640c2c",
+    "val.csv": "21c2976c7aa2ec253fc61acb3c74b635faff8db40c35b3c5088e95fc9aac6982"
+  },
+  "notes": [
+    "Each child covers K held-out indicators; one true level 1-4 per indicator, independent across children.",
+    "All m vignettes of an indicator share the true level (consistent child); m<=3.",
+    "No cross-child comparison is used anywhere.",
+    "Items are known from the assessment checklist; free-text item linking is out of scope."
+  ]
+}

@@ -1,0 +1,61 @@
+[project]
+name = "nuri-ml"
+version = "0.1.0"
+description = "Nuri curriculum classification with TF-IDF and semantic representations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "scikit-learn>=1.7,<2",
+    "typer>=0.16",
+]
+
+[project.optional-dependencies]
+semantic = [
+    "fasttext-wheel==0.9.2",
+    "pydantic>=2,<3",
+    "sentence-transformers>=5,<6",
+    "torch>=2.6",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.40.2",
+    "pytest>=8",
+    "ruff>=0.11",
+    "scikit-learn-stubs>=0.0.3",
+    "scipy-stubs>=1.18.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["error"]
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv-semantic"
+exclude = ["artifacts", ".venv", ".venv-semantic"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["artifacts", ".venv-semantic"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["COM812", "D203", "D213"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["D", "S101", "PLR2004", "INP001"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["typer.Option"]

@@ -1,0 +1,1830 @@
+{
+  "created_by": "build_probes.py",
+  "seed": 42,
+  "model": {
+    "features": "syllable_2-5",
+    "classifier": "linear_svm",
+    "c": 10.0
+  },
+  "data_hashes": {
+    "train.csv": "810703446f63c7f3ceafff783469e0bcdfce2729291321ba611d7662b3640c2c",
+    "val.csv": "21c2976c7aa2ec253fc61acb3c74b635faff8db40c35b3c5088e95fc9aac6982"
+  },
+  "labels": [
+    "사회관계",
+    "신체운동·건강",
+    "예술경험",
+    "의사소통",
+    "자연탐구"
+  ],
+  "validation": [
+    {
+      "id": "N008",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.337493
+    },
+    {
+      "id": "N009",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.300703
+    },
+    {
+      "id": "N010",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.038123
+    },
+    {
+      "id": "N011",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "자연탐구",
+      "margin": 1.081196
+    },
+    {
+      "id": "N012",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.1862
+    },
+    {
+      "id": "N013",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.13307
+    },
+    {
+      "id": "N014",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "사회관계",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.3725
+    },
+    {
+      "id": "N015",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.484435
+    },
+    {
+      "id": "N016",
+      "group": "CB-p309",
+      "source": "casebook",
+      "label": "예술경험",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.447717
+    },
+    {
+      "id": "N089",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 1.430262
+    },
+    {
+      "id": "N090",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 0.24131
+    },
+    {
+      "id": "N091",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.768633
+    },
+    {
+      "id": "N092",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.179839
+    },
+    {
+      "id": "N093",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "신체운동·건강",
+      "margin": 0.391343
+    },
+    {
+      "id": "N094",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.181867
+    },
+    {
+      "id": "N095",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.850907
+    },
+    {
+      "id": "N096",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.276071
+    },
+    {
+      "id": "N097",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "예술경험",
+      "margin": 0.199373
+    },
+    {
+      "id": "N098",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 1.040608
+    },
+    {
+      "id": "N099",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.401975
+    },
+    {
+      "id": "N100",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.754075
+    },
+    {
+      "id": "N101",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "의사소통",
+      "margin": 0.222966
+    },
+    {
+      "id": "N102",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.61111
+    },
+    {
+      "id": "N103",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.002574
+    },
+    {
+      "id": "N104",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.163796
+    },
+    {
+      "id": "N105",
+      "group": "CB-p317",
+      "source": "casebook",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.033479
+    },
+    {
+      "id": "K013",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 0.544943
+    },
+    {
+      "id": "K014",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.016809
+    },
+    {
+      "id": "K015",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.078139
+    },
+    {
+      "id": "K016",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.025598
+    },
+    {
+      "id": "K017",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "사회관계",
+      "margin": 0.026081
+    },
+    {
+      "id": "K018",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.438165
+    },
+    {
+      "id": "K019",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.029552
+    },
+    {
+      "id": "K020",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.335212
+    },
+    {
+      "id": "K021",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "사회관계",
+      "margin": 0.407418
+    },
+    {
+      "id": "K022",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "자연탐구",
+      "margin": 0.017766
+    },
+    {
+      "id": "K023",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 0.148148
+    },
+    {
+      "id": "K024",
+      "group": "KI-1-02",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 0.026454
+    },
+    {
+      "id": "K117",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "사회관계",
+      "top2": "신체운동·건강",
+      "margin": 0.063957
+    },
+    {
+      "id": "K118",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.047399
+    },
+    {
+      "id": "K119",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "사회관계",
+      "top2": "신체운동·건강",
+      "margin": 0.039896
+    },
+    {
+      "id": "K120",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.070325
+    },
+    {
+      "id": "K121",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "의사소통",
+      "margin": 0.762639
+    },
+    {
+      "id": "K122",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "자연탐구",
+      "margin": 0.673469
+    },
+    {
+      "id": "K123",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "의사소통",
+      "margin": 0.880951
+    },
+    {
+      "id": "K124",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "자연탐구",
+      "margin": 0.840665
+    },
+    {
+      "id": "K125",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "자연탐구",
+      "margin": 0.087291
+    },
+    {
+      "id": "K126",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "사회관계",
+      "top2": "신체운동·건강",
+      "margin": 0.011301
+    },
+    {
+      "id": "K127",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 0.085533
+    },
+    {
+      "id": "K128",
+      "group": "KI-1-11",
+      "source": "kicce",
+      "label": "신체운동·건강",
+      "top1": "신체운동·건강",
+      "top2": "의사소통",
+      "margin": 0.853115
+    },
+    {
+      "id": "K141",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.233095
+    },
+    {
+      "id": "K142",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.15981
+    },
+    {
+      "id": "K143",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.215508
+    },
+    {
+      "id": "K144",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.240734
+    },
+    {
+      "id": "K145",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "신체운동·건강",
+      "top2": "의사소통",
+      "margin": 0.128366
+    },
+    {
+      "id": "K146",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.249499
+    },
+    {
+      "id": "K147",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.625827
+    },
+    {
+      "id": "K148",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.428144
+    },
+    {
+      "id": "K149",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 0.882391
+    },
+    {
+      "id": "K150",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.285964
+    },
+    {
+      "id": "K151",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.102874
+    },
+    {
+      "id": "K152",
+      "group": "KI-2-01",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 1.027776
+    },
+    {
+      "id": "K189",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.273737
+    },
+    {
+      "id": "K190",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.386012
+    },
+    {
+      "id": "K191",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.101711
+    },
+    {
+      "id": "K192",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.723396
+    },
+    {
+      "id": "K193",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.389938
+    },
+    {
+      "id": "K194",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "자연탐구",
+      "margin": 0.964633
+    },
+    {
+      "id": "K195",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.347586
+    },
+    {
+      "id": "K196",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.239565
+    },
+    {
+      "id": "K197",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.347359
+    },
+    {
+      "id": "K198",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.635775
+    },
+    {
+      "id": "K199",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "신체운동·건강",
+      "margin": 1.517251
+    },
+    {
+      "id": "K200",
+      "group": "KI-2-05",
+      "source": "kicce",
+      "label": "의사소통",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.002133
+    },
+    {
+      "id": "K321",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "신체운동·건강",
+      "top2": "예술경험",
+      "margin": 0.151932
+    },
+    {
+      "id": "K322",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "예술경험",
+      "top2": "사회관계",
+      "margin": 0.846029
+    },
+    {
+      "id": "K323",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.329617
+    },
+    {
+      "id": "K324",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 0.020278
+    },
+    {
+      "id": "K325",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.326192
+    },
+    {
+      "id": "K326",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.113214
+    },
+    {
+      "id": "K327",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.324942
+    },
+    {
+      "id": "K328",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.653944
+    },
+    {
+      "id": "K329",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.017617
+    },
+    {
+      "id": "K330",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.136475
+    },
+    {
+      "id": "K331",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.53423
+    },
+    {
+      "id": "K332",
+      "group": "KI-3-04",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.300376
+    },
+    {
+      "id": "K417",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.545792
+    },
+    {
+      "id": "K418",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.066517
+    },
+    {
+      "id": "K419",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.05702
+    },
+    {
+      "id": "K420",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.015074
+    },
+    {
+      "id": "K421",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.276849
+    },
+    {
+      "id": "K422",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 1.175875
+    },
+    {
+      "id": "K423",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.123635
+    },
+    {
+      "id": "K424",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.022098
+    },
+    {
+      "id": "K425",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "의사소통",
+      "margin": 0.166901
+    },
+    {
+      "id": "K426",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.140199
+    },
+    {
+      "id": "K427",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.178219
+    },
+    {
+      "id": "K428",
+      "group": "KI-3-12",
+      "source": "kicce",
+      "label": "사회관계",
+      "top1": "사회관계",
+      "top2": "자연탐구",
+      "margin": 0.034718
+    },
+    {
+      "id": "K441",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.513973
+    },
+    {
+      "id": "K442",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.36801
+    },
+    {
+      "id": "K443",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "의사소통",
+      "top2": "자연탐구",
+      "margin": 0.078345
+    },
+    {
+      "id": "K444",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.010394
+    },
+    {
+      "id": "K445",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.496301
+    },
+    {
+      "id": "K446",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.320383
+    },
+    {
+      "id": "K447",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.18078
+    },
+    {
+      "id": "K448",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 1.129631
+    },
+    {
+      "id": "K449",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.48579
+    },
+    {
+      "id": "K450",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 1.001893
+    },
+    {
+      "id": "K451",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "의사소통",
+      "top2": "사회관계",
+      "margin": 0.44013
+    },
+    {
+      "id": "K452",
+      "group": "KI-4-02",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.881335
+    },
+    {
+      "id": "K453",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.158649
+    },
+    {
+      "id": "K454",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "사회관계",
+      "margin": 0.475674
+    },
+    {
+      "id": "K455",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "의사소통",
+      "margin": 0.306596
+    },
+    {
+      "id": "K456",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "의사소통",
+      "top2": "예술경험",
+      "margin": 0.446447
+    },
+    {
+      "id": "K457",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 1.563389
+    },
+    {
+      "id": "K458",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 0.143524
+    },
+    {
+      "id": "K459",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "의사소통",
+      "margin": 0.205235
+    },
+    {
+      "id": "K460",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "의사소통",
+      "margin": 0.205913
+    },
+    {
+      "id": "K461",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "의사소통",
+      "margin": 1.210769
+    },
+    {
+      "id": "K462",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 0.330015
+    },
+    {
+      "id": "K463",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "사회관계",
+      "margin": 0.421145
+    },
+    {
+      "id": "K464",
+      "group": "KI-4-03",
+      "source": "kicce",
+      "label": "예술경험",
+      "top1": "예술경험",
+      "top2": "신체운동·건강",
+      "margin": 0.268579
+    },
+    {
+      "id": "K645",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.998393
+    },
+    {
+      "id": "K646",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.500858
+    },
+    {
+      "id": "K647",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.366347
+    },
+    {
+      "id": "K648",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.858001
+    },
+    {
+      "id": "K649",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.445455
+    },
+    {
+      "id": "K650",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.182995
+    },
+    {
+      "id": "K651",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.74721
+    },
+    {
+      "id": "K652",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.31567
+    },
+    {
+      "id": "K653",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "의사소통",
+      "top2": "자연탐구",
+      "margin": 0.018584
+    },
+    {
+      "id": "K654",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.51418
+    },
+    {
+      "id": "K655",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "의사소통",
+      "top2": "자연탐구",
+      "margin": 0.135334
+    },
+    {
+      "id": "K656",
+      "group": "KI-5-09",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.085822
+    },
+    {
+      "id": "K669",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.627709
+    },
+    {
+      "id": "K670",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 0.839788
+    },
+    {
+      "id": "K671",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.825943
+    },
+    {
+      "id": "K672",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.563416
+    },
+    {
+      "id": "K673",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.318364
+    },
+    {
+      "id": "K674",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 1.003992
+    },
+    {
+      "id": "K675",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.594989
+    },
+    {
+      "id": "K676",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.811043
+    },
+    {
+      "id": "K677",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 1.000491
+    },
+    {
+      "id": "K678",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.478965
+    },
+    {
+      "id": "K679",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.628244
+    },
+    {
+      "id": "K680",
+      "group": "KI-5-11",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "예술경험",
+      "top2": "자연탐구",
+      "margin": 0.33629
+    },
+    {
+      "id": "K681",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.222987
+    },
+    {
+      "id": "K682",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.024668
+    },
+    {
+      "id": "K683",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.079144
+    },
+    {
+      "id": "K684",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.599512
+    },
+    {
+      "id": "K685",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.366956
+    },
+    {
+      "id": "K686",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.001189
+    },
+    {
+      "id": "K687",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.089845
+    },
+    {
+      "id": "K688",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.112702
+    },
+    {
+      "id": "K689",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "예술경험",
+      "margin": 1.419404
+    },
+    {
+      "id": "K690",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "신체운동·건강",
+      "margin": 0.646203
+    },
+    {
+      "id": "K691",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "사회관계",
+      "margin": 0.412544
+    },
+    {
+      "id": "K692",
+      "group": "KI-5-12",
+      "source": "kicce",
+      "label": "자연탐구",
+      "top1": "자연탐구",
+      "top2": "의사소통",
+      "margin": 0.597395
+    }
+  ],
+  "human_selection": [
+    {
+      "id": "K199",
+      "stratum": "control"
+    },
+    {
+      "id": "K655",
+      "stratum": "hard"
+    },
+    {
+      "id": "K120",
+      "stratum": "hard"
+    },
+    {
+      "id": "K190",
+      "stratum": "hard"
+    },
+    {
+      "id": "N092",
+      "stratum": "hard"
+    },
+    {
+      "id": "K119",
+      "stratum": "hard"
+    },
+    {
+      "id": "K196",
+      "stratum": "hard"
+    },
+    {
+      "id": "K457",
+      "stratum": "control"
+    },
+    {
+      "id": "K689",
+      "stratum": "control"
+    },
+    {
+      "id": "K441",
+      "stratum": "hard"
+    },
+    {
+      "id": "K447",
+      "stratum": "hard"
+    },
+    {
+      "id": "N089",
+      "stratum": "control"
+    },
+    {
+      "id": "K677",
+      "stratum": "hard"
+    },
+    {
+      "id": "K191",
+      "stratum": "hard"
+    },
+    {
+      "id": "K321",
+      "stratum": "hard"
+    },
+    {
+      "id": "K324",
+      "stratum": "hard"
+    },
+    {
+      "id": "K417",
+      "stratum": "control"
+    },
+    {
+      "id": "K145",
+      "stratum": "hard"
+    },
+    {
+      "id": "K463",
+      "stratum": "control"
+    },
+    {
+      "id": "K450",
+      "stratum": "hard"
+    },
+    {
+      "id": "K443",
+      "stratum": "hard"
+    },
+    {
+      "id": "K648",
+      "stratum": "control"
+    },
+    {
+      "id": "K454",
+      "stratum": "control"
+    },
+    {
+      "id": "N016",
+      "stratum": "hard"
+    },
+    {
+      "id": "K192",
+      "stratum": "hard"
+    },
+    {
+      "id": "K117",
+      "stratum": "hard"
+    },
+    {
+      "id": "K329",
+      "stratum": "hard"
+    },
+    {
+      "id": "K152",
+      "stratum": "control"
+    },
+    {
+      "id": "K422",
+      "stratum": "control"
+    },
+    {
+      "id": "N097",
+      "stratum": "hard"
+    },
+    {
+      "id": "K674",
+      "stratum": "control"
+    },
+    {
+      "id": "K146",
+      "stratum": "hard"
+    },
+    {
+      "id": "K118",
+      "stratum": "hard"
+    },
+    {
+      "id": "N014",
+      "stratum": "hard"
+    },
+    {
+      "id": "K323",
+      "stratum": "hard"
+    },
+    {
+      "id": "K015",
+      "stratum": "hard"
+    },
+    {
+      "id": "K461",
+      "stratum": "control"
+    },
+    {
+      "id": "K645",
+      "stratum": "control"
+    },
+    {
+      "id": "N091",
+      "stratum": "hard"
+    },
+    {
+      "id": "K423",
+      "stratum": "hard"
+    },
+    {
+      "id": "K016",
+      "stratum": "hard"
+    },
+    {
+      "id": "K149",
+      "stratum": "control"
+    },
+    {
+      "id": "K127",
+      "stratum": "hard"
+    },
+    {
+      "id": "K419",
+      "stratum": "hard"
+    },
+    {
+      "id": "N010",
+      "stratum": "hard"
+    },
+    {
+      "id": "K456",
+      "stratum": "hard"
+    },
+    {
+      "id": "K018",
+      "stratum": "hard"
+    },
+    {
+      "id": "K451",
+      "stratum": "hard"
+    },
+    {
+      "id": "K020",
+      "stratum": "hard"
+    },
+    {
+      "id": "K679",
+      "stratum": "hard"
+    },
+    {
+      "id": "N012",
+      "stratum": "control"
+    },
+    {
+      "id": "K420",
+      "stratum": "hard"
+    },
+    {
+      "id": "K332",
+      "stratum": "hard"
+    },
+    {
+      "id": "N011",
+      "stratum": "control"
+    },
+    {
+      "id": "K019",
+      "stratum": "hard"
+    },
+    {
+      "id": "N093",
+      "stratum": "hard"
+    }
+  ],
+  "llm_item_order": [
+    "K328",
+    "K649",
+    "N089",
+    "K689",
+    "K462",
+    "K024",
+    "N015",
+    "K424",
+    "K141",
+    "K020",
+    "K650",
+    "K423",
+    "K651",
+    "K117",
+    "K143",
+    "K332",
+    "N100",
+    "N016",
+    "K447",
+    "K427",
+    "K147",
+    "K692",
+    "K653",
+    "K652",
+    "K446",
+    "N104",
+    "K197",
+    "N105",
+    "N011",
+    "K454",
+    "K189",
+    "K125",
+    "K464",
+    "N012",
+    "K455",
+    "N010",
+    "K685",
+    "K457",
+    "K684",
+    "K458",
+    "K442",
+    "N092",
+    "K322",
+    "K645",
+    "K417",
+    "N008",
+    "K444",
+    "K422",
+    "K014",
+    "K421",
+    "K142",
+    "K443",
+    "K145",
+    "K193",
+    "K683",
+    "N093",
+    "K195",
+    "K678",
+    "K015",
+    "K673",
+    "N013",
+    "K325",
+    "K450",
+    "K127",
+    "K672",
+    "K329",
+    "K691",
+    "K420",
+    "K656",
+    "K441",
+    "K124",
+    "K461",
+    "N098",
+    "K425",
+    "K199",
+    "K459",
+    "K200",
+    "K326",
+    "N101",
+    "K460",
+    "K150",
+    "K192",
+    "K418",
+    "K198",
+    "K647",
+    "K451",
+    "K013",
+    "K419",
+    "K687",
+    "K682",
+    "K321",
+    "N090",
+    "K677",
+    "K016",
+    "K190",
+    "K426",
+    "K146",
+    "K669",
+    "K121",
+    "N097",
+    "K118",
+    "K679",
+    "K144",
+    "K323",
+    "K646",
+    "K119",
+    "K449",
+    "K327",
+    "K196",
+    "K654",
+    "N009",
+    "K686",
+    "K448",
+    "K463",
+    "K194",
+    "N091",
+    "K688",
+    "K331",
+    "K330",
+    "K122",
+    "K670",
+    "K019",
+    "K152",
+    "K148",
+    "K648",
+    "N103",
+    "K690",
+    "K655",
+    "N095",
+    "K151",
+    "K452",
+    "K018",
+    "N096",
+    "K123",
+    "K681",
+    "K021",
+    "K017",
+    "K149",
+    "K022",
+    "K324",
+    "K128",
+    "N014",
+    "K445",
+    "K674",
+    "K680",
+    "K120",
+    "K453",
+    "N102",
+    "N099",
+    "K191",
+    "K126",
+    "K456",
+    "K675",
+    "N094",
+    "K676",
+    "K023",
+    "K428",
+    "K671"
+  ]
+}

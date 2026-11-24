@@ -1,0 +1,33 @@
+{
+  "python": "3.14.4",
+  "scikit_learn": "1.9.1",
+  "seed": 42,
+  "default_only": false,
+  "train_rows": 666,
+  "val_rows": 158,
+  "train_labels": {
+    "의사소통": 146,
+    "사회관계": 140,
+    "예술경험": 110,
+    "자연탐구": 143,
+    "신체운동·건강": 127
+  },
+  "val_labels": {
+    "의사소통": 34,
+    "사회관계": 29,
+    "예술경험": 28,
+    "신체운동·건강": 27,
+    "자연탐구": 40
+  },
+  "train_groups": 57,
+  "val_groups": 13,
+  "sha256": {
+    "train.csv": "810703446f63c7f3ceafff783469e0bcdfce2729291321ba611d7662b3640c2c",
+    "val.csv": "21c2976c7aa2ec253fc61acb3c74b635faff8db40c35b3c5088e95fc9aac6982"
+  },
+  "best_setting": "syllable_2-5__linear_svm__C10",
+  "selection": "validation macro_f1, then accuracy, then top2_accuracy",
+  "evaluation_note": "Exploratory validation comparison, not an independent test score.",
+  "jamo": "Unicode NFD; initial and final consonants remain distinct",
+  "tfidf": "char, sublinear_tf=True, min_df=1, norm=l2; fitted on train only"
+}

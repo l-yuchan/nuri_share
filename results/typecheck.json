@@ -1,0 +1,238 @@
+
+{
+    "version": "1.40.2",
+    "time": "1794881507864",
+    "generalDiagnostics": [
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"accuracy_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘accuracy_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, normalize: bool = True, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> (float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+            "range": {
+                "start": {
+                    "line": 26,
+                    "character": 4
+                },
+                "end": {
+                    "line": 26,
+                    "character": 18
+                }
+            },
+            "rule": "reportUnknownVariableType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"classification_report\"의 형식을 부분적으로 알 수 없습니다.\n  ‘classification_report’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, target_names: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, digits: int | signedinteger[_8Bit] | signedinteger[_16Bit] | signedinteger[_32Bit] | signedinteger[_64Bit] = 2, output_dict: bool = False, zero_division: int | Literal['warn'] = \"warn\") -> (str | dict[Unknown, Unknown])’입니다.",
+            "range": {
+                "start": {
+                    "line": 27,
+                    "character": 4
+                },
+                "end": {
+                    "line": 27,
+                    "character": 25
+                }
+            },
+            "rule": "reportUnknownVariableType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"f1_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘f1_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, pos_label: str | int = 1, average: Literal['micro', 'macro', 'samples', 'weighted', 'binary'] | None = \"binary\", sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, zero_division: int | Literal['warn'] = \"warn\") -> (ndarray[tuple[Any, ...], dtype[Any]] | float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+            "range": {
+                "start": {
+                    "line": 29,
+                    "character": 4
+                },
+                "end": {
+                    "line": 29,
+                    "character": 12
+                }
+            },
+            "rule": "reportUnknownVariableType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"top_k_accuracy_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘top_k_accuracy_score’의 유형이 ‘(y_true: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_score: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, k: int | signedinteger[_8Bit] | signedinteger[_16Bit] | signedinteger[_32Bit] | signedinteger[_64Bit] = 2, normalize: bool = True, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> float’입니다.",
+            "range": {
+                "start": {
+                    "line": 30,
+                    "character": 4
+                },
+                "end": {
+                    "line": 30,
+                    "character": 24
+                }
+            },
+            "rule": "reportUnknownVariableType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"fit_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit_transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown], y: ndarray[tuple[Any, ...], dtype[Any]] | None = None) -> spmatrix[Any]’입니다.",
+            "range": {
+                "start": {
+                    "line": 127,
+                    "character": 18
+                },
+                "end": {
+                    "line": 127,
+                    "character": 42
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown]) -> spmatrix[Any]’입니다.",
+            "range": {
+                "start": {
+                    "line": 128,
+                    "character": 16
+                },
+                "end": {
+                    "line": 128,
+                    "character": 36
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"fit\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit’의 유형이 ‘((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LogisticRegression) | ((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LinearSVC)’입니다.",
+            "range": {
+                "start": {
+                    "line": 137,
+                    "character": 20
+                },
+                "end": {
+                    "line": 137,
+                    "character": 34
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "\"decision_function\"의 형식을 부분적으로 알 수 없습니다.\n  ‘decision_function’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> ndarray[tuple[Any, ...], dtype[Any]]’입니다.",
+            "range": {
+                "start": {
+                    "line": 140,
+                    "character": 46
+                },
+                "end": {
+                    "line": 140,
+                    "character": 74
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "Argument type is Any\n  인수가 \"__new__\" 함수의 \"object\" 매개 변수에 해당합니다.",
+            "range": {
+                "start": {
+                    "line": 145,
+                    "character": 25
+                },
+                "end": {
+                    "line": 145,
+                    "character": 30
+                }
+            },
+            "rule": "reportAny"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "Type of \"label\" is Any",
+            "range": {
+                "start": {
+                    "line": 145,
+                    "character": 36
+                },
+                "end": {
+                    "line": 145,
+                    "character": 41
+                }
+            },
+            "rule": "reportAny"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+            "severity": "warning",
+            "message": "Type of \"row_indices\" is Any",
+            "range": {
+                "start": {
+                    "line": 146,
+                    "character": 24
+                },
+                "end": {
+                    "line": 146,
+                    "character": 35
+                }
+            },
+            "rule": "reportAny"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+            "severity": "warning",
+            "message": "\"fit_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit_transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown], y: ndarray[tuple[Any, ...], dtype[Any]] | None = None) -> spmatrix[Any]’입니다.",
+            "range": {
+                "start": {
+                    "line": 29,
+                    "character": 8
+                },
+                "end": {
+                    "line": 29,
+                    "character": 32
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+            "severity": "warning",
+            "message": "\"transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown]) -> spmatrix[Any]’입니다.",
+            "range": {
+                "start": {
+                    "line": 30,
+                    "character": 17
+                },
+                "end": {
+                    "line": 30,
+                    "character": 37
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        },
+        {
+            "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+            "severity": "warning",
+            "message": "\"inverse_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘inverse_transform’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> list[ndarray[tuple[Any, ...], dtype[Any]]]’입니다.",
+            "range": {
+                "start": {
+                    "line": 31,
+                    "character": 11
+                },
+                "end": {
+                    "line": 31,
+                    "character": 39
+                }
+            },
+            "rule": "reportUnknownMemberType"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 3,
+        "errorCount": 0,
+        "warningCount": 14,
+        "informationCount": 0,
+        "timeInSec": 1.671
+    }
+}

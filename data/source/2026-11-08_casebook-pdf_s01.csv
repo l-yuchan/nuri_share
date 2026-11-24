@@ -1,0 +1,121 @@
+﻿id,source,session,group_id,label,content_category,item_no,item_text,context,level,age,text,label_source,use_default,split,note
+N001,casebook,2026-11-08_casebook-pdf_s01,CB-p308,의사소통,,,,놀이 사례,,3세,"교사, 친구들의 이야기를 듣고 유아 자신이 하고 싶은 놀이를 시작하고 놀이가 진행됨에 따라 자연스럽게 이야기가 섞이면서 함께 놀이하게 됨",teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N002,casebook,2026-11-08_casebook-pdf_s01,CB-p308,의사소통,,,,놀이 사례,,3세,혼자 충분히 놀고 싶은 소율이는 자신의 마음을 놀이 맥락에 담아 표현하고 세민이에게 식당을 만들 것을 제안함,teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N003,casebook,2026-11-08_casebook-pdf_s01,CB-p308,사회관계,,,,놀이 사례,,3세,"일상 안에서 가족과 경험한 캠핑놀이, 수영장놀이를 친구들과 준비하며 놀이를 즐김",teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N004,casebook,2026-11-08_casebook-pdf_s01,CB-p308,사회관계,,,,놀이 사례,,3세,"내가 하고 싶은 놀이를 위한 선택을 하며, 공간 안에 준비된 여러 자료들을 적극적으로 활용 함",teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N005,casebook,2026-11-08_casebook-pdf_s01,CB-p308,예술경험,,,,놀이 사례,,3세,다양한 미술 재료로 자신의 놀이에 필요한 소품을 만들어 활용함(팝콘/ 잔디 등),teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N006,casebook,2026-11-08_casebook-pdf_s01,CB-p308,예술경험,,,,놀이 사례,,3세,교실 내 여러 공간(구슬 길)을 활용하여 수영장 놀이에 필요한 소품도 직접 설치하며 놀이를 이어감,teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N007,casebook,2026-11-08_casebook-pdf_s01,CB-p308,자연탐구,,,,놀이 사례,,3세,수영장 만들기 놀이에서 수영장 문에 들어가기 위한 문을 만드는 데 블록의 길이를 비교하여 고려함,teacher (MoE & MoHW 2020 casebook),yes,train,p.308
+N008,casebook,2026-11-08_casebook-pdf_s01,CB-p309,의사소통,,,,놀이 사례,,3세,편지 쓸 때 편지를 전한 후 반응에 귀 기울이며 관심 있게 들으려 함,teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N009,casebook,2026-11-08_casebook-pdf_s01,CB-p309,의사소통,,,,놀이 사례,,3세,"친구와의 관계에서 느끼는 긍정적이거나 부정적인 생각, 감정을 드러내며 편지를 통해 표현하고, 소통하려고 함. 영희, 유은이는 자신의 경험을 토대로 느끼고 생각하여 상대에게 하고자 하는 말을 담기도 함",teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N010,casebook,2026-11-08_casebook-pdf_s01,CB-p309,의사소통,,,,놀이 사례,,3세,편지를 주고받는 맥락 안에서 친구 또는 교사와 대화를 이어가기도 함,teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N011,casebook,2026-11-08_casebook-pdf_s01,CB-p309,의사소통,,,,놀이 사례,,3세,"편지를 쓸 때 ㅇ, l, ㅡ같은 형태를 반복하며 글자를 쓰듯이 하고 문자의 상징체계로 썼음을 말하기도 함",teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N012,casebook,2026-11-08_casebook-pdf_s01,CB-p309,사회관계,,,,놀이 사례,,3세,"편지, 선물을 받는 친구나 교사가 기뻐할 것을 예상하고 전달함. 세미, 승재가 교사에게 편지를 전하는 과정에서 관계를 돈독히 해감을 즐거워 함",teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N013,casebook,2026-11-08_casebook-pdf_s01,CB-p309,사회관계,,,,놀이 사례,,3세,영희는 속상한 자신의 마음을 알고 편지를 통해 마음을 표현함. 이후 감정이 해소되었을 때 애정의 마음을 친구에게 드러내 표현하기도 함,teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N014,casebook,2026-11-08_casebook-pdf_s01,CB-p309,사회관계,,,,놀이 사례,,3세,"편지를 통해 서로 다른 친구에게 전하고픈 생각을 분명히 전하고, 친구의 생각과 감정을 존중하고 이를 고려하며 긍정적인 소통을 이어감",teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N015,casebook,2026-11-08_casebook-pdf_s01,CB-p309,예술경험,,,,놀이 사례,,3세,"편지에 담기는 표현의 아름다움에 관심을 가짐. 색, 형태 등에 심미감을 느끼고 고려함 편지에 담기는 표현을 위해 그리고, 오리고, 붙임. 편지 받는 상대를 고려하여 자신의 생각을 표현하기도 함",teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N016,casebook,2026-11-08_casebook-pdf_s01,CB-p309,예술경험,,,,놀이 사례,,3세,서로의 편지에 담긴 표현을 존중하고 관심 있게 들여다 봄. 편지 받는 상대를 고려하여 표현을 달리 하기도 함,teacher (MoE & MoHW 2020 casebook),yes,val,p.309
+N017,casebook,2026-11-08_casebook-pdf_s01,CB-p310,신체운동·건강,,,,놀이 사례,,5세,나무 블록을 활용하여 굴러가는 길을 구성할 때 무너지지 않도록 작은 블록들을 사이에 끼워둠,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N018,casebook,2026-11-08_casebook-pdf_s01,CB-p310,신체운동·건강,,,,놀이 사례,,5세,나무 블록을 활용하여 공간을 구성하고 적절한 위치에 길을 이어 가면서 공의 움직임을 함께 관찰하며 따라감,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N019,casebook,2026-11-08_casebook-pdf_s01,CB-p310,신체운동·건강,,,,놀이 사례,,5세,놀이를 하는 중간이나 끝난 후 바닥에 있는 매체들을 스스로 정리함,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N020,casebook,2026-11-08_casebook-pdf_s01,CB-p310,의사소통,,,,놀이 사례,,5세,친구가 새로운 의견을 제시할 때 귀 기울여 들음,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N021,casebook,2026-11-08_casebook-pdf_s01,CB-p310,의사소통,,,,놀이 사례,,5세,친구의 의견에 대한 자신의 생각이나 새로운 의견을 자신 있게 말함,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N022,casebook,2026-11-08_casebook-pdf_s01,CB-p310,의사소통,,,,놀이 사례,,5세,자신이 상상하는 굴러가는 길을 도형이나 기호로 장애물을 표현해 지도를 표상함,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N023,casebook,2026-11-08_casebook-pdf_s01,CB-p310,사회관계,,,,놀이 사례,,5세,친구들과 의견이 맞지 않은 상황에서 화를 내지 않고 긍정적으로 해결하려는 모습을 보임,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N024,casebook,2026-11-08_casebook-pdf_s01,CB-p310,사회관계,,,,놀이 사례,,5세,길의 다리를 구성 할 때 받침대를 들어주어 친구가 수월하 게 구성을 할 수 있도록 도움,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N025,casebook,2026-11-08_casebook-pdf_s01,CB-p310,사회관계,,,,놀이 사례,,5세,자신의 의견뿐만 아니라 친구들의 의견을 존중해주어 모두가 동의한 방향으로 굴러가는 길을 구성함,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N026,casebook,2026-11-08_casebook-pdf_s01,CB-p310,예술경험,,,,놀이 사례,,5세,"나무 블록, 빛 매체, 재활용품, 지관 등을 활용하여 굴러가는 길에 장애물과 다양한 길을 구성함",teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N027,casebook,2026-11-08_casebook-pdf_s01,CB-p310,자연탐구,,,,놀이 사례,,5세,"굴러가는 길을 구성할 때 왜 공이 굴러가지 않는지, 공이 거꾸로 굴러가는 이유는 무엇인지 관심을 갖고 관찰한 후 해결함",teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N028,casebook,2026-11-08_casebook-pdf_s01,CB-p310,자연탐구,,,,놀이 사례,,5세,더 다양한 굴러가는 길을 구성하기 위해 다양한 매체에 관심을 갖고 활용함,teacher (MoE & MoHW 2020 casebook),yes,train,p.310
+N029,casebook,2026-11-08_casebook-pdf_s01,CB-p311,의사소통,,,,놀이 사례,,3세,친구들과 같이 서로의 생각을 주고받으며 자신들이 관심있는 공룡스토리가 담긴 공연이야기를 만들며 표현하고자 함,teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N030,casebook,2026-11-08_casebook-pdf_s01,CB-p311,의사소통,,,,놀이 사례,,3세,"관람자로 공연을 지켜본 친구들과의 소통(말, 몸짓) 시도",teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N031,casebook,2026-11-08_casebook-pdf_s01,CB-p311,의사소통,,,,놀이 사례,,3세,가상의 놀이 상황 안에서 갈등을 해결해보려는 모습이 나타남,teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N032,casebook,2026-11-08_casebook-pdf_s01,CB-p311,사회관계,,,,놀이 사례,,3세,함께 놀이하는 친구들끼리도 재미있고 관객들에게 인정받는 공연이 되기 위해서 점차 공연의 내용에서 여러가지를 의식해서 고려해 나감,teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N033,casebook,2026-11-08_casebook-pdf_s01,CB-p311,사회관계,,,,놀이 사례,,3세,직접적으로 놀이에 참여하지 않은 또래의 의견을 경청하여 자신의 놀이 상황에 반영 함,teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N034,casebook,2026-11-08_casebook-pdf_s01,CB-p311,예술경험,,,,놀이 사례,,3세,"교실 공연 공간의 부분과 전체, 소품 등을 적극적으로 활용하면서 자신의 생각을 움직임으로 표현함(바다-파란색 천, 용암-빨간 우비 등)",teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N035,casebook,2026-11-08_casebook-pdf_s01,CB-p311,예술경험,,,,놀이 사례,,3세,"다양한 극놀이 내용으로 공룡 공연 놀이를 표현함(화산 폭발한 공룡 마을, 물장구 치는 공룡, 초식-육식공룡)",teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N036,casebook,2026-11-08_casebook-pdf_s01,CB-p311,자연탐구,,,,놀이 사례,,3세,자신이 관심 있고 알고 싶은 공룡에 대해 지속적으로 호기심을 가지며 이를 책에서 확인하기도 하고 실제 몸으로 표현해보며 공룡의 종류에 따른 습성을 말과 몸으로 표현함,teacher (MoE & MoHW 2020 casebook),yes,train,p.311
+N037,casebook,2026-11-08_casebook-pdf_s01,CB-p312,신체운동·건강,,,,놀이 사례,,3세,"불이 난 상황을 가정하고, 불을 끄기 위한 자발적인 신체 움직임을 보임",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N038,casebook,2026-11-08_casebook-pdf_s01,CB-p312,신체운동·건강,,,,놀이 사례,,3세,"불이 난 상황에서 “불이야!”라고 외치며, 소화기로 불을 끄기거나 소방서에 신고하며 대피하는 등 불이 났을 때 대처하는 방법을 잘 알고 행동함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N039,casebook,2026-11-08_casebook-pdf_s01,CB-p312,의사소통,,,,놀이 사례,,3세,"놀이 시간 중 스스로 만든 소방관 놀이 도구의 제작방법, 사용법 등을 친구들과 공유함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N040,casebook,2026-11-08_casebook-pdf_s01,CB-p312,의사소통,,,,놀이 사례,,3세,"친구의 소방관 놀이 도구 설명을 관심 있게 듣고 도구에 대한 자신의 느낌, 생각, 경험 등을 말로 표현함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N041,casebook,2026-11-08_casebook-pdf_s01,CB-p312,사회관계,,,,놀이 사례,,3세,기다란 호스관을 연결하는 과정에서 어려움이 있는 친구를 도와 함께 협력하여 소방호스를 제작함,teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N042,casebook,2026-11-08_casebook-pdf_s01,CB-p312,사회관계,,,,놀이 사례,,3세,"자신이 새롭게 발견한 소방도구 만드는 방법을 친구들과 나누고, 서로의 생각을 더해 함께 만들어 놀이함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N043,casebook,2026-11-08_casebook-pdf_s01,CB-p312,사회관계,,,,놀이 사례,,3세,"소방호스로 놀이할 때 친구가 뒤에 있지 않은지 살피고, 방해되지 않게 사이렌은 한 번만 울리며, 계단을 한 명씩 올라가는 등 놀이에 필요한 안전규칙을 함께 놀이하는 친구들과 합의해 만들고 지킴",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N044,casebook,2026-11-08_casebook-pdf_s01,CB-p312,예술경험,,,,놀이 사례,,3세,"주변을 살펴서 놀이 상황에 사용할 수 있는 적합한 매체를 찾아내고, 필요한 물건이 없을 때에는 매체를 변형하거나 재활용품을 활용하여 놀잇감을 만들어 놀이에 사용함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N045,casebook,2026-11-08_casebook-pdf_s01,CB-p312,자연탐구,,,,놀이 사례,,3세,"소방관, 의사, 약사가 사용하는 실제 도구에 관심을 가지고 직접 만들어 놀이하고 싶어 함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N046,casebook,2026-11-08_casebook-pdf_s01,CB-p312,자연탐구,,,,놀이 사례,,3세,"직접 만든 놀이 도구와 실제 소방관, 의사, 약사들이 사용하는 도구를 비교하여 실제 도구에 비슷하게 놀이 도구를 변형시키는 방법에 대해 적극적으로 탐구함",teacher (MoE & MoHW 2020 casebook),yes,train,p.312
+N047,casebook,2026-11-08_casebook-pdf_s01,CB-p313,신체운동·건강,,,,놀이 사례,,3세,"발견한 새에 다가가기 위해 움직임을 조절함. 빠르게 달려가거나, 조형물을 위로 올라가려 몸을 조절해 움직이거나, 살금살금 천천히 작은 움직임으로 다가가려 함",teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N048,casebook,2026-11-08_casebook-pdf_s01,CB-p313,의사소통,,,,놀이 사례,,3세,새를 가까이 오게 하기 위한 방법에 대해 나누는 친구의 이야기를 관심 있게 들어봄,teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N049,casebook,2026-11-08_casebook-pdf_s01,CB-p313,의사소통,,,,놀이 사례,,3세,"새를 가까이 오게 하기 위한 방법을 생각해 말하고, 또 다른 방법들을 계속해서 생각하며 말함",teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N050,casebook,2026-11-08_casebook-pdf_s01,CB-p313,의사소통,,,,놀이 사례,,3세,교사가 새가 다가오게 하는 방법에 대해 한 번 더 짚어 질문하며 이야기하자 생각을 전환하여 이야기를 나눔. 새의 입장에서 다가오고 싶은 생각을 가질 만한 방법을 생각하여 말하고 관련해서 이야기를 서로 나눔,teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N051,casebook,2026-11-08_casebook-pdf_s01,CB-p313,예술경험,,,,놀이 사례,,3세,"공원에서 찾은 자연물과 미술재료(점토)를 활용하여 새 둥지를 만들어 봄. 둥지를 만들 때 편안하게 휴식할 수 있는 집의 이미지를 떠올리며 재료들을 활용해 자유롭게 구성하여 표현함. 이 때 표현하고자 하는 것과 재료의 특성을 고려(푹신푹신하게 하기 위한 짚, 넓은 집을 위한 큰 돌 등)하여 구성함",teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N052,casebook,2026-11-08_casebook-pdf_s01,CB-p313,자연탐구,,,,놀이 사례,,3세,"실외놀이를 하며 만나는 새, 자연물 등을 포함한 주변을 유심히 살피며 알고 싶어하고 다가가려 함 가까이에서 만나기를 원하지만 직접 다가가기 어려움을 알아차리고, 새가 직접 다가오도록 하기 위해 새가 좋아할 만한 것을 떠올려보고 조심스럽게 다가가보려 하기도 함",teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N053,casebook,2026-11-08_casebook-pdf_s01,CB-p313,자연탐구,,,,놀이 사례,,3세,"새 둥지를 만들기 위해 돌, 나뭇잎 등 자연물을 찾아 분류하여 선택해서 사용함. 새가 살 수 있을 만한 둥지를 만들기 위한 자료를 선택함. 돌의 크기 비교 분류, 나뭇잎의 종류에 따라 분류 등 나름의 기준으로 자료를 분류하고 선택함",teacher (MoE & MoHW 2020 casebook),yes,train,p.313
+N054,casebook,2026-11-08_casebook-pdf_s01,CB-p314,신체운동·건강,,,,놀이 사례,,"4,5세",벌레를 이동시키기 위해 나뭇가지라는 도구를 이용하는 등 신체 움직임을 조절함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N055,casebook,2026-11-08_casebook-pdf_s01,CB-p314,의사소통,,,,놀이 사례,,"4,5세","벌레를 탐색하는 과정에서 색깔, 모양, 이름 등에 대해 서로의 말을 잘 들으며 의견을 주고 받음",teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N056,casebook,2026-11-08_casebook-pdf_s01,CB-p314,의사소통,,,,놀이 사례,,"4,5세","벌레가 죽은 이유에 대해 상황을 파악, 유추하면서 자신의 생각을 말하고 서로 의견을 나눔",teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N057,casebook,2026-11-08_casebook-pdf_s01,CB-p314,의사소통,,,,놀이 사례,,"4,5세",“잡지마! 생명이야.”라고 말하며 자신의 의견을 분명하게 말함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N058,casebook,2026-11-08_casebook-pdf_s01,CB-p314,사회관계,,,,놀이 사례,,"4,5세",탐색하는 과정에서 벌레가 죽자 그 벌레를 나뭇가지로 찌르던 유아에게 그러지 말라고 말하며 다른 생명에 대한 예의를 알려줌,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N059,casebook,2026-11-08_casebook-pdf_s01,CB-p314,사회관계,,,,놀이 사례,,"4,5세",벌레를 무서워하는 친구에게 “괜찮아 겁낼 것 없어”하며 격려해 줌,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N060,casebook,2026-11-08_casebook-pdf_s01,CB-p314,사회관계,,,,놀이 사례,,"4,5세",비난 받아 속상한 마음을 “왜 다 나 때문이라고 그래?’라며 표현함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N061,casebook,2026-11-08_casebook-pdf_s01,CB-p314,사회관계,,,,놀이 사례,,"4,5세",또래들의 비난에 속상해 하는 친구를 위로하며 다른 친구들에게 비난 하지 말라고 말함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N062,casebook,2026-11-08_casebook-pdf_s01,CB-p314,예술경험,,,,놀이 사례,,"4,5세","공원의 돌 바닥에 색분필을 이용하여 거미줄, 거미 등을 창의적으로 그림",teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N063,casebook,2026-11-08_casebook-pdf_s01,CB-p314,자연탐구,,,,놀이 사례,,"4,5세",바위에 붙어 있는 벌레를 발견하고 무슨 벌레인지 자신이 알고 있는 정보를 나눔,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N064,casebook,2026-11-08_casebook-pdf_s01,CB-p314,자연탐구,,,,놀이 사례,,"4,5세",벌레가 기어가는 모습을 관찰하며 생김새와 기능에 대해 토론함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N065,casebook,2026-11-08_casebook-pdf_s01,CB-p314,자연탐구,,,,놀이 사례,,"4,5세",벌레를 나뭇가지로 유인하여 화단에 놓아주거나 개미를 잡지 말라고 친구에게 말하는 등 생명을 존중함,teacher (MoE & MoHW 2020 casebook),yes,train,p.314
+N066,casebook,2026-11-08_casebook-pdf_s01,CB-p315,신체운동·건강,,,,놀이 사례,,5세,자신의 몸을 조절하며 산을 올라감,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N067,casebook,2026-11-08_casebook-pdf_s01,CB-p315,의사소통,,,,놀이 사례,,5세,영지는 다람쥐 식탁으로 꾸밀 돌들을 주워 침대나 사다리로 쓸 거라고 이야기함,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N068,casebook,2026-11-08_casebook-pdf_s01,CB-p315,의사소통,,,,놀이 사례,,5세,작은 돌멩이를 주워 다람쥐 생일상을 차려 주기 위한 방법에 대해 서로의 의견을 나누며 이야기함,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N069,casebook,2026-11-08_casebook-pdf_s01,CB-p315,의사소통,,,,놀이 사례,,5세,"특이한 나무조각을 발견하여 ‘풍선 같다’, ‘타조 풍선 같다’고 자신의 의견을 이야기함",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N070,casebook,2026-11-08_casebook-pdf_s01,CB-p315,의사소통,,,,놀이 사례,,5세,"네모판자와 나뭇가지, 돌을 가지고 다람쥐 앉을 자리를 마련하기 위해 서로의 의견을 이야기함",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N071,casebook,2026-11-08_casebook-pdf_s01,CB-p315,사회관계,,,,놀이 사례,,5세,"다람쥐 식탁을 차리기 위해 꽃가루 만들기, 자리 마련하기 등의 역할을 정하여 놀이함",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N072,casebook,2026-11-08_casebook-pdf_s01,CB-p315,사회관계,,,,놀이 사례,,5세,"다람쥐 앉을 자리가 좁고, 의자에 앉은 사람만 먹을 수 있다는 문제가 생기자 의자로 사용할 돌을 쪼개자는 해결책을 제안함",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N073,casebook,2026-11-08_casebook-pdf_s01,CB-p315,예술경험,,,,놀이 사례,,5세,"교 사가 주운 특이하게 생긴 나무 조각을 보며, ‘풍선 같다’, ‘타조 풍선 같다’라고 이야기하며 나무 조각의 생김새를 감상함",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N074,casebook,2026-11-08_casebook-pdf_s01,CB-p315,예술경험,,,,놀이 사례,,5세,자연물을 활용하여 다람쥐 식탁을 아름답게 꾸밈,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N075,casebook,2026-11-08_casebook-pdf_s01,CB-p315,자연탐구,,,,놀이 사례,,5세,산에 올라가는 길에 다람쥐를 발견하고는 귀엽다고 이야기하며 생명에 관심을 가짐,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N076,casebook,2026-11-08_casebook-pdf_s01,CB-p315,자연탐구,,,,놀이 사례,,5세,"산을 올라가며 도토리, 밤, 돌멩이 등에 호기심을 갖고 계속 주우며 감",teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N077,casebook,2026-11-08_casebook-pdf_s01,CB-p315,자연탐구,,,,놀이 사례,,5세,다람쥐를 초대하여 음식을 대접하려는 마음을 가짐으로 생명을 소중히 여김,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N078,casebook,2026-11-08_casebook-pdf_s01,CB-p315,자연탐구,,,,놀이 사례,,5세,영지는 주운 돌을 어떻게 쓸지 지속적으로 호기심을 가지며 새로운 아이디어를 떠올림,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N079,casebook,2026-11-08_casebook-pdf_s01,CB-p315,자연탐구,,,,놀이 사례,,5세,다람쥐 집에 문들 만들기 위해 고심하다 두 개의 나무판 사이에 나무 문을 끼워 넣어 세우는 방법을 생각하여 해결함,teacher (MoE & MoHW 2020 casebook),yes,train,p.315
+N080,casebook,2026-11-08_casebook-pdf_s01,CB-p316,신체운동·건강,,,,놀이 사례,,5세,"우다다 공원에서 나무열매와 나뭇잎, 나뭇가지들을 관찰하고 주울 때 자연물과의 부딪힘이나 친구들과의 부딪힘을 유의하며 안전하게 놀이함",teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N081,casebook,2026-11-08_casebook-pdf_s01,CB-p316,의사소통,,,,놀이 사례,,5세,"보리수 나뭇잎 퍼즐이 재미있음을 교사에게 말하고, 이것과 다르게 빨강색 퍼즐인 단풍잎 퍼즐을 만들어줄 것을 요청함",teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N082,casebook,2026-11-08_casebook-pdf_s01,CB-p316,의사소통,,,,놀이 사례,,5세,"유아들이 교사에게 나뭇잎 퍼즐을 내줄 때 교사가 나뭇잎 퍼즐이 어렵다고 말하는 것을 듣고, 나뭇잎 색깔이 어떻게 변하는지 그 차이를 설명함",teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N083,casebook,2026-11-08_casebook-pdf_s01,CB-p316,예술경험,,,,놀이 사례,,5세,단풍이 든 나무의 다채로운 색이 아름다움을 느끼고 가을의 정취를 즐김,teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N084,casebook,2026-11-08_casebook-pdf_s01,CB-p316,예술경험,,,,놀이 사례,,5세,예쁘게 물든 나뭇잎과 열매를 주워서 친구들과 함께 ‘둥근 보자기’의 나무를 가을나무로 꾸밈,teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N085,casebook,2026-11-08_casebook-pdf_s01,CB-p316,예술경험,,,,놀이 사례,,5세,"나뭇잎들을 노란색, 빨간색 색깔별로 배열하여 자연의 아름다움을 느낌",teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N086,casebook,2026-11-08_casebook-pdf_s01,CB-p316,자연탐구,,,,놀이 사례,,5세,"보리수 나뭇잎이 초록에서 노랑으로 물들어가는 색의 변화를 섬세하게 분류할 수 있음 •보리수와 단풍잎의 모양, 색깔 등을 비교하여 분류할 수 있음",teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N087,casebook,2026-11-08_casebook-pdf_s01,CB-p316,자연탐구,,,,놀이 사례,,5세,나뭇잎 색 변화과정을 이용해 나뭇잎 퍼즐을 만듦,teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N088,casebook,2026-11-08_casebook-pdf_s01,CB-p316,자연탐구,,,,놀이 사례,,5세,나뭇잎의 아름다움을 느끼며 생태적 감수성을 경험함,teacher (MoE & MoHW 2020 casebook),yes,train,p.316
+N089,casebook,2026-11-08_casebook-pdf_s01,CB-p317,신체운동·건강,,,,놀이 사례,,"4,5세",감을 따기 위해 나뭇가지를 당기거나 도구를 이용하면서 신체 움직임을 조절함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N090,casebook,2026-11-08_casebook-pdf_s01,CB-p317,신체운동·건강,,,,놀이 사례,,"4,5세","사자성 놀이, 뒤뜰 탐험 등 마당을 자유롭게 뛰고 걸으며 신체 활동을 함",teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N091,casebook,2026-11-08_casebook-pdf_s01,CB-p317,신체운동·건강,,,,놀이 사례,,"4,5세",감과 모래를 섞고 개미모래통으로 옮기기 위해 삽을 이용함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N092,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",감을 따기 위해 방문한 안나네와 동네 할아버지네 집에서 어른의 말씀을 잘 듣고 감따기를 해 봄,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N093,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",안나네 마당에서 사자성 놀이 중 적절히 대화를 나눠 놀이를 전개시킴,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N094,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",교사가 감으로 무엇을 할 거냐고 묻는 말을 잘 듣고 놀잇감으로 이용할 거라고 대답함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N095,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",뒤뜰에 놀러 가보고 싶다는 요청을 교사에게 말로 전달함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N096,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",은사과 열매를 가져다 동생들 방에 선물로 주고 싶은 마음을 말로 표현함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N097,casebook,2026-11-08_casebook-pdf_s01,CB-p317,의사소통,,,,놀이 사례,,"4,5세",동네 할아버지께 감과 간식에 대해 감사함을 인사말로 표현함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N098,casebook,2026-11-08_casebook-pdf_s01,CB-p317,사회관계,,,,놀이 사례,,"4,5세",안나 아빠와 동네 할아버지께 예의 바르게 인사하고 말씀을 잘 듣고 따름,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N099,casebook,2026-11-08_casebook-pdf_s01,CB-p317,사회관계,,,,놀이 사례,,"4,5세",안나 아빠와 동네 할아버지께 감사의 마음을 전함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N100,casebook,2026-11-08_casebook-pdf_s01,CB-p317,예술경험,,,,놀이 사례,,"4,5세",마당에 있는 감나무와 사과나무 등을 보며 아름다움을 느끼고 즐김,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N101,casebook,2026-11-08_casebook-pdf_s01,CB-p317,예술경험,,,,놀이 사례,,"4,5세",감나무를 받은 느낌을 행운이라고 표현함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N102,casebook,2026-11-08_casebook-pdf_s01,CB-p317,자연탐구,,,,놀이 사례,,"4,5세","감나무, 은사과 나무의 차이를 발견하고 관찰하며 이름을 알게 됨",teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N103,casebook,2026-11-08_casebook-pdf_s01,CB-p317,자연탐구,,,,놀이 사례,,"4,5세",따온 감을 교실에 두고 눌러보고 찔러보고 옮겨보고 맛보고 냄새 맡으면서 감의 특성에 대해 알아감,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N104,casebook,2026-11-08_casebook-pdf_s01,CB-p317,자연탐구,,,,놀이 사례,,"4,5세",모래와 섞었을 때를 상상해 보고 실제 섞은 상태를 확인함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N105,casebook,2026-11-08_casebook-pdf_s01,CB-p317,자연탐구,,,,놀이 사례,,"4,5세",감을 아이스홍시로 만들어 물질의 변화를 경험함,teacher (MoE & MoHW 2020 casebook),yes,val,p.317
+N106,casebook,2026-11-08_casebook-pdf_s01,CB-p318,신체운동·건강,,,,놀이 사례,,"3,4,5세",훌태로 벼를 훑으며 신체 움직임을 조절함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N107,casebook,2026-11-08_casebook-pdf_s01,CB-p318,신체운동·건강,,,,놀이 사례,,"3,4,5세",벼 이삭을 훑고 남은 지푸라기를 정리하며 주변을 깨끗이 함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N108,casebook,2026-11-08_casebook-pdf_s01,CB-p318,의사소통,,,,놀이 사례,,"3,4,5세","벼 훑기를 소개하는 또또 할아버지 설명을 관심있게 듣고, 벼 훑는 모습을 관심있게 지켜 봄",teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N109,casebook,2026-11-08_casebook-pdf_s01,CB-p318,의사소통,,,,놀이 사례,,"3,4,5세",벼 훑기를 하던 희선은 ‘우리가 엄마인 것 같아’라고 표현하며 자신의 벼 훑기 경험을 이야기함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N110,casebook,2026-11-08_casebook-pdf_s01,CB-p318,의사소통,,,,놀이 사례,,"3,4,5세",훌태를 들어보며 ‘우리가 벼 파마해 주는 것 같아’라고 상상하여 이야기함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N111,casebook,2026-11-08_casebook-pdf_s01,CB-p318,의사소통,,,,놀이 사례,,"3,4,5세","훌태를 ‘뭘로 사용하고 싶은 지’ 를 교사가 묻자, 놀잇감 중 ‘먹는 젓가락’으로 사용하고 싶다고 자신의 의견을 관련해여 말함",teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N112,casebook,2026-11-08_casebook-pdf_s01,CB-p318,사회관계,,,,놀이 사례,,"3,4,5세",어린이집 옆 노인정 어르신들과 의논하여 추수하는 날을 정하고 평소 텃밭에 방문했던 이웃 기관을 초대함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N113,casebook,2026-11-08_casebook-pdf_s01,CB-p318,사회관계,,,,놀이 사례,,"3,4,5세",이웃 어린이집 동생들과 경로당 어른들을 만나 반갑게 인사하며 예의 바르게 행동함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N114,casebook,2026-11-08_casebook-pdf_s01,CB-p318,사회관계,,,,놀이 사례,,"3,4,5세",이웃 어린이집 영아들과 어린이집 유아들이 함께 앉아서 벼 훑기에 참여함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N115,casebook,2026-11-08_casebook-pdf_s01,CB-p318,사회관계,,,,놀이 사례,,"3,4,5세",또또 할아버지의 벼 훑는 모습을 지켜본 후 체험하고 싶은 유아들은 교사의 안내에 따라 벼 이삭을 훑음,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N116,casebook,2026-11-08_casebook-pdf_s01,CB-p318,예술경험,,,,놀이 사례,,"3,4,5세",벼 훑기를 끝내며 하늘을 쳐다보고 낮 달을 발견함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N117,casebook,2026-11-08_casebook-pdf_s01,CB-p318,자연탐구,,,,놀이 사례,,"3,4,5세","고무통에 모를 심고 벼가 익어가는 과정을 호기심을 갖고 지속적으로 경험하며, 벼의 성장과정을 관찰함",teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N118,casebook,2026-11-08_casebook-pdf_s01,CB-p318,자연탐구,,,,놀이 사례,,"3,4,5세","배추에 있는 애벌레를 잡아서 풀섶에 놓아주고, 배추 속이 잘 자라도록 돌봄",teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N119,casebook,2026-11-08_casebook-pdf_s01,CB-p318,자연탐구,,,,놀이 사례,,"3,4,5세","고무통 논에 물을 대주고, 허수아비도 세워서 벼가 잘 자랄 수 있도록 돌보며 생명을 소중히 여김",teacher (MoE & MoHW 2020 casebook),yes,train,p.318
+N120,casebook,2026-11-08_casebook-pdf_s01,CB-p318,자연탐구,,,,놀이 사례,,"3,4,5세",낮 달을 발견하고 ‘달이 우리 일하는 거 보고 있어’라고 말하며 자연과 교감함,teacher (MoE & MoHW 2020 casebook),yes,train,p.318

@@ -1,0 +1,1949 @@
+{
+  "version": "1.40.2",
+  "time": "1794942593342",
+  "generalDiagnostics": [
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_experiment.py",
+      "severity": "warning",
+      "message": "\"append\"의 형식을 부분적으로 알 수 없습니다.\n  ‘append’의 유형이 ‘(object: Unknown, /) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 70,
+          "character": 12
+        },
+        "end": {
+          "line": 70,
+          "character": 41
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_experiment.py",
+      "severity": "warning",
+      "message": "암시적 문자열 연결이 허용되지 않습니다.",
+      "range": {
+        "start": {
+          "line": 111,
+          "character": 20
+        },
+        "end": {
+          "line": 112,
+          "character": 63
+        }
+      },
+      "rule": "reportImplicitStringConcatenation"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_experiment.py",
+      "severity": "warning",
+      "message": "\"metadata\"의 형식을 부분적으로 알 수 없습니다.\n  ‘metadata’의 유형이 ‘dict[str, str | dict[str, str] | tuple[Literal[13], Literal[42], Literal[73], Literal[101], Literal[137]] | int | dict[str, int | float] | list[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 121,
+          "character": 4
+        },
+        "end": {
+          "line": 121,
+          "character": 12
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"fasttext\"에 대한 stub 파일을 찾을 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 10,
+          "character": 7
+        },
+        "end": {
+          "line": 10,
+          "character": 15
+        }
+      },
+      "rule": "reportMissingTypeStubs"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"fasttext.FastText\"에 대한 stub 파일을 찾을 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 12,
+          "character": 5
+        },
+        "end": {
+          "line": 12,
+          "character": 22
+        }
+      },
+      "rule": "reportMissingTypeStubs"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"_FastText\"은(는) 프라이빗이며 선언된 모듈 외부에서 사용됩니다.",
+      "range": {
+        "start": {
+          "line": 12,
+          "character": 30
+        },
+        "end": {
+          "line": 12,
+          "character": 39
+        }
+      },
+      "rule": "reportPrivateUsage"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"train_supervised\"의 형식을 부분적으로 알 수 없습니다.\n  ‘train_supervised’의 유형이 ‘(...) -> _FastText’입니다.",
+      "range": {
+        "start": {
+          "line": 57,
+          "character": 11
+        },
+        "end": {
+          "line": 57,
+          "character": 36
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"get_input_vector\"의 형식을 부분적으로 알 수 없습니다.\n  ‘get_input_vector’의 유형이 ‘(ind: Unknown) -> ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 81,
+          "character": 31
+        },
+        "end": {
+          "line": 81,
+          "character": 54
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"norm\" 함수의 \"x\" 매개 변수에 해당합니다.\n  인수 형식이 \"ndarray[tuple[Any, ...], dtype[Unknown]]\"입니다.",
+      "range": {
+        "start": {
+          "line": 81,
+          "character": 31
+        },
+        "end": {
+          "line": 81,
+          "character": 80
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"get_word_id\"의 형식을 부분적으로 알 수 없습니다.\n  ‘get_word_id’의 유형이 ‘(word: Unknown) -> Unknown’입니다.",
+      "range": {
+        "start": {
+          "line": 81,
+          "character": 55
+        },
+        "end": {
+          "line": 81,
+          "character": 73
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "인수 형식을 알 수 없습니다.\n  인수가 \"get_input_vector\" 함수의 \"ind\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 81,
+          "character": 55
+        },
+        "end": {
+          "line": 81,
+          "character": 79
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"predict\"의 형식을 부분적으로 알 수 없습니다.\n  ‘predict’의 유형이 ‘(text: Unknown, k: int = 1, threshold: float = 0, on_unicode_error: str = 'strict') -> (tuple[Unknown, Unknown] | tuple[tuple[Any, ...] | tuple[()], ndarray[tuple[Any, ...], dtype[Unknown]]])’입니다.",
+      "range": {
+        "start": {
+          "line": 105,
+          "character": 38
+        },
+        "end": {
+          "line": 105,
+          "character": 51
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"decode_predictions\" 함수의 \"labels\" 매개 변수에 해당합니다.\n  인수 형식이 \"Unknown | tuple[Any, ...] | tuple[()]\"입니다.",
+      "range": {
+        "start": {
+          "line": 105,
+          "character": 38
+        },
+        "end": {
+          "line": 105,
+          "character": 96
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "\"predict\"의 형식을 부분적으로 알 수 없습니다.\n  ‘predict’의 유형이 ‘(text: Unknown, k: int = 1, threshold: float = 0, on_unicode_error: str = 'strict') -> (tuple[Unknown, Unknown] | tuple[tuple[Any, ...] | tuple[()], ndarray[tuple[Any, ...], dtype[Unknown]]])’입니다.",
+      "range": {
+        "start": {
+          "line": 106,
+          "character": 32
+        },
+        "end": {
+          "line": 106,
+          "character": 45
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_model.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"decode_predictions\" 함수의 \"labels\" 매개 변수에 해당합니다.\n  인수 형식이 \"Unknown | tuple[Any, ...] | tuple[()]\"입니다.",
+      "range": {
+        "start": {
+          "line": 106,
+          "character": 32
+        },
+        "end": {
+          "line": 106,
+          "character": 88
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_vectors.py",
+      "severity": "warning",
+      "message": "Type of \"vector\" is Any",
+      "range": {
+        "start": {
+          "line": 26,
+          "character": 22
+        },
+        "end": {
+          "line": 26,
+          "character": 28
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_vectors.py",
+      "severity": "warning",
+      "message": "Type of \"v\" is Any",
+      "range": {
+        "start": {
+          "line": 27,
+          "character": 71
+        },
+        "end": {
+          "line": 27,
+          "character": 72
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\ablation_vectors.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"any\" 함수의 \"a\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 57,
+          "character": 47
+        },
+        "end": {
+          "line": 57,
+          "character": 82
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"__call__\" 함수의 \"where\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 30,
+          "character": 70
+        },
+        "end": {
+          "line": 30,
+          "character": 86
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"seeds\" is Any",
+      "range": {
+        "start": {
+          "line": 40,
+          "character": 4
+        },
+        "end": {
+          "line": 40,
+          "character": 9
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"_\" is Any",
+      "range": {
+        "start": {
+          "line": 40,
+          "character": 11
+        },
+        "end": {
+          "line": 40,
+          "character": 12
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"groups\" is Any",
+      "range": {
+        "start": {
+          "line": 40,
+          "character": 14
+        },
+        "end": {
+          "line": 40,
+          "character": 20
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"_\" is Any",
+      "range": {
+        "start": {
+          "line": 40,
+          "character": 22
+        },
+        "end": {
+          "line": 40,
+          "character": 23
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"_\" is Any",
+      "range": {
+        "start": {
+          "line": 40,
+          "character": 25
+        },
+        "end": {
+          "line": 40,
+          "character": 26
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"multinomial\" 함수의 \"n\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 42,
+          "character": 36
+        },
+        "end": {
+          "line": 42,
+          "character": 42
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"full\" 함수의 \"shape\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 42,
+          "character": 52
+        },
+        "end": {
+          "line": 42,
+          "character": 58
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"full\" 함수의 \"fill_value\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 42,
+          "character": 60
+        },
+        "end": {
+          "line": 42,
+          "character": 70
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"multinomial\" 함수의 \"n\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 43,
+          "character": 35
+        },
+        "end": {
+          "line": 43,
+          "character": 40
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"full\" 함수의 \"shape\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 43,
+          "character": 50
+        },
+        "end": {
+          "line": 43,
+          "character": 55
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"full\" 함수의 \"fill_value\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 43,
+          "character": 57
+        },
+        "end": {
+          "line": 43,
+          "character": 66
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Type of \"resampled\" is Any",
+      "range": {
+        "start": {
+          "line": 44,
+          "character": 4
+        },
+        "end": {
+          "line": 44,
+          "character": 13
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"classification_scores\" 함수의 \"counts\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 45,
+          "character": 35
+        },
+        "end": {
+          "line": 45,
+          "character": 44
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Return type is Any",
+      "range": {
+        "start": {
+          "line": 46,
+          "character": 11
+        },
+        "end": {
+          "line": 46,
+          "character": 81
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"einsum\" 함수의 \"operands\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 46,
+          "character": 37
+        },
+        "end": {
+          "line": 46,
+          "character": 57
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "\"append\"의 형식을 부분적으로 알 수 없습니다.\n  ‘append’의 유형이 ‘(object: Unknown, /) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 92,
+          "character": 8
+        },
+        "end": {
+          "line": 92,
+          "character": 22
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "\"writer\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writer’의 유형이 ‘DictWriter[Unknown]’입니다.",
+      "range": {
+        "start": {
+          "line": 112,
+          "character": 8
+        },
+        "end": {
+          "line": 112,
+          "character": 14
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"fieldnames\" 매개 변수에 해당합니다.\n  인수 형식이 \"list[Unknown]\"입니다.",
+      "range": {
+        "start": {
+          "line": 112,
+          "character": 51
+        },
+        "end": {
+          "line": 112,
+          "character": 67
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "인수 형식을 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"iterable\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 112,
+          "character": 56
+        },
+        "end": {
+          "line": 112,
+          "character": 66
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "\"writerows\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writerows’의 유형이 ‘(rowdicts: Iterable[Mapping[Unknown, Any]]) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 114,
+          "character": 8
+        },
+        "end": {
+          "line": 114,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\analyze_ablation.py",
+      "severity": "warning",
+      "message": "\"append\"의 형식을 부분적으로 알 수 없습니다.\n  ‘append’의 유형이 ‘(object: Unknown, /) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 120,
+          "character": 8
+        },
+        "end": {
+          "line": 120,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "매개 변수 기본값 식 내에서는 함수 호출 및 변경 가능한 개체를 사용할 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 32,
+          "character": 50
+        },
+        "end": {
+          "line": 32,
+          "character": 73
+        }
+      },
+      "rule": "reportCallInDefaultInitializer"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"manual_seed\"의 형식을 부분적으로 알 수 없습니다.\n  ‘manual_seed’의 유형이 ‘(seed: Unknown) -> Generator’입니다.",
+      "range": {
+        "start": {
+          "line": 39,
+          "character": 4
+        },
+        "end": {
+          "line": 39,
+          "character": 21
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "호출 식의 결과가 ‘Generator’ 형식이므로 사용되지 않습니다. 의도적인 경우 변수 ‘_’에 할당하세요.",
+      "range": {
+        "start": {
+          "line": 39,
+          "character": 4
+        },
+        "end": {
+          "line": 39,
+          "character": 25
+        }
+      },
+      "rule": "reportUnusedCallResult"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"tokenized\" is Any",
+      "range": {
+        "start": {
+          "line": 47,
+          "character": 4
+        },
+        "end": {
+          "line": 47,
+          "character": 13
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"tokenizer\" is Any",
+      "range": {
+        "start": {
+          "line": 47,
+          "character": 16
+        },
+        "end": {
+          "line": 47,
+          "character": 33
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"len\" 함수의 \"obj\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 48,
+          "character": 19
+        },
+        "end": {
+          "line": 48,
+          "character": 22
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"row\" is Any",
+      "range": {
+        "start": {
+          "line": 48,
+          "character": 28
+        },
+        "end": {
+          "line": 48,
+          "character": 31
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"encode\"의 형식을 부분적으로 알 수 없습니다.\n  ‘encode’의 유형이 ‘Overload[(inputs: str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: Literal['sentence_embedding', 'token_embeddings'] = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: Literal[False] = True, convert_to_tensor: bool = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> Tensor, (inputs: list[str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict]] | str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: Literal['sentence_embedding'] = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: Literal[True] = True, convert_to_tensor: Literal[False] = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> ndarray[tuple[Any, ...], dtype[Any]], (inputs: list[str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict]] | str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: Literal['sentence_embedding'] = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: bool = True, convert_to_tensor: Literal[True] = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> Tensor, (inputs: list[str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict]], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: Literal['sentence_embedding', 'token_embeddings'] = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: bool = True, convert_to_tensor: bool = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> list[Tensor], (inputs: list[str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict]], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: None = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: bool = True, convert_to_tensor: bool = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> list[dict[str, Tensor]], (inputs: str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: None = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: bool = True, convert_to_tensor: bool = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> dict[str, Tensor], (inputs: str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict | MessageDict | list[MessageDict] | dict[Literal['text', 'image', 'audio', 'video'], str | Unknown | ndarray[tuple[Any, ...], dtype[Any]] | Tensor | AudioDict | VideoDict], prompt_name: str | None = None, prompt: str | None = None, batch_size: int = 32, show_progress_bar: bool | None = None, output_value: Literal['token_embeddings'] = \"sentence_embedding\", precision: Literal['float32', 'int8', 'uint8', 'binary', 'ubinary'] = \"float32\", convert_to_numpy: bool = True, convert_to_tensor: bool = False, device: str | list[str | device] | None = None, normalize_embeddings: bool = False, truncate_dim: int | None = None, pool: dict[Literal['input', 'output', 'processes'], Any] | None = None, chunk_size: int | None = None, **kwargs: Unknown) -> Tensor]’입니다.",
+      "range": {
+        "start": {
+          "line": 50,
+          "character": 17
+        },
+        "end": {
+          "line": 50,
+          "character": 31
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"fit\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit’의 유형이 ‘((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LogisticRegression) | ((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LinearSVC)’입니다.",
+      "range": {
+        "start": {
+          "line": 72,
+          "character": 16
+        },
+        "end": {
+          "line": 72,
+          "character": 30
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"decision_function\"의 형식을 부분적으로 알 수 없습니다.\n  ‘decision_function’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> ndarray[tuple[Any, ...], dtype[Any]]’입니다.",
+      "range": {
+        "start": {
+          "line": 73,
+          "character": 21
+        },
+        "end": {
+          "line": 73,
+          "character": 49
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"i\" is Any",
+      "range": {
+        "start": {
+          "line": 75,
+          "character": 55
+        },
+        "end": {
+          "line": 75,
+          "character": 56
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"row\" is Any",
+      "range": {
+        "start": {
+          "line": 75,
+          "character": 69
+        },
+        "end": {
+          "line": 75,
+          "character": 72
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"append\"의 형식을 부분적으로 알 수 없습니다.\n  ‘append’의 유형이 ‘(object: Unknown, /) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 79,
+          "character": 12
+        },
+        "end": {
+          "line": 79,
+          "character": 26
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"sort\"의 형식을 부분적으로 알 수 없습니다.\n  ‘sort’의 유형이 ‘Overload[(*, key: None = None, reverse: bool = False) -> None, (*, key: (Unknown) -> (SupportsDunderLT[Any] | SupportsDunderGT[Any]), reverse: bool = False) -> None]’입니다.",
+      "range": {
+        "start": {
+          "line": 95,
+          "character": 4
+        },
+        "end": {
+          "line": 95,
+          "character": 16
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "매개 변수 \"row\"의 형식을 알 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 95,
+          "character": 28
+        },
+        "end": {
+          "line": 95,
+          "character": 31
+        }
+      },
+      "rule": "reportUnknownLambdaType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "람다의 반환 형식 \"tuple[Unknown, Unknown]\"을(를) 부분적으로 알 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 95,
+          "character": 33
+        },
+        "end": {
+          "line": 95,
+          "character": 67
+        }
+      },
+      "rule": "reportUnknownLambdaType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"writer\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writer’의 유형이 ‘DictWriter[Unknown]’입니다.",
+      "range": {
+        "start": {
+          "line": 97,
+          "character": 8
+        },
+        "end": {
+          "line": 97,
+          "character": 14
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"fieldnames\" 매개 변수에 해당합니다.\n  인수 형식이 \"list[Unknown]\"입니다.",
+      "range": {
+        "start": {
+          "line": 97,
+          "character": 51
+        },
+        "end": {
+          "line": 97,
+          "character": 67
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "인수 형식을 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"iterable\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 97,
+          "character": 56
+        },
+        "end": {
+          "line": 97,
+          "character": 66
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\encoder_experiment.py",
+      "severity": "warning",
+      "message": "\"writerows\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writerows’의 유형이 ‘(rowdicts: Iterable[Mapping[Unknown, Any]]) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 99,
+          "character": 8
+        },
+        "end": {
+          "line": 99,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"accuracy_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘accuracy_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, normalize: bool = True, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> (float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+      "range": {
+        "start": {
+          "line": 25,
+          "character": 4
+        },
+        "end": {
+          "line": 25,
+          "character": 18
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"classification_report\"의 형식을 부분적으로 알 수 없습니다.\n  ‘classification_report’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, target_names: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, digits: int | signedinteger[_8Bit] | signedinteger[_16Bit] | signedinteger[_32Bit] | signedinteger[_64Bit] = 2, output_dict: bool = False, zero_division: int | Literal['warn'] = \"warn\") -> (str | dict[Unknown, Unknown])’입니다.",
+      "range": {
+        "start": {
+          "line": 26,
+          "character": 4
+        },
+        "end": {
+          "line": 26,
+          "character": 25
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"f1_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘f1_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, pos_label: str | int = 1, average: Literal['micro', 'macro', 'samples', 'weighted', 'binary'] | None = \"binary\", sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, zero_division: int | Literal['warn'] = \"warn\") -> (ndarray[tuple[Any, ...], dtype[Any]] | float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+      "range": {
+        "start": {
+          "line": 28,
+          "character": 4
+        },
+        "end": {
+          "line": 28,
+          "character": 12
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"top_k_accuracy_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘top_k_accuracy_score’의 유형이 ‘(y_true: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_score: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, k: int | signedinteger[_8Bit] | signedinteger[_16Bit] | signedinteger[_32Bit] | signedinteger[_64Bit] = 2, normalize: bool = True, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> float’입니다.",
+      "range": {
+        "start": {
+          "line": 29,
+          "character": 4
+        },
+        "end": {
+          "line": 29,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"fit_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit_transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown], y: ndarray[tuple[Any, ...], dtype[Any]] | None = None) -> spmatrix[Any]’입니다.",
+      "range": {
+        "start": {
+          "line": 129,
+          "character": 18
+        },
+        "end": {
+          "line": 129,
+          "character": 42
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown]) -> spmatrix[Any]’입니다.",
+      "range": {
+        "start": {
+          "line": 130,
+          "character": 16
+        },
+        "end": {
+          "line": 130,
+          "character": 36
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"fit\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit’의 유형이 ‘((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LogisticRegression) | ((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LinearSVC)’입니다.",
+      "range": {
+        "start": {
+          "line": 139,
+          "character": 20
+        },
+        "end": {
+          "line": 139,
+          "character": 34
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "\"decision_function\"의 형식을 부분적으로 알 수 없습니다.\n  ‘decision_function’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> ndarray[tuple[Any, ...], dtype[Any]]’입니다.",
+      "range": {
+        "start": {
+          "line": 142,
+          "character": 46
+        },
+        "end": {
+          "line": 142,
+          "character": 74
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"__new__\" 함수의 \"object\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 147,
+          "character": 25
+        },
+        "end": {
+          "line": 147,
+          "character": 30
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "Type of \"label\" is Any",
+      "range": {
+        "start": {
+          "line": 147,
+          "character": 36
+        },
+        "end": {
+          "line": 147,
+          "character": 41
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\experiment.py",
+      "severity": "warning",
+      "message": "Type of \"row_indices\" is Any",
+      "range": {
+        "start": {
+          "line": 147,
+          "character": 71
+        },
+        "end": {
+          "line": 147,
+          "character": 82
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"fasttext\"에 대한 stub 파일을 찾을 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 13,
+          "character": 7
+        },
+        "end": {
+          "line": 13,
+          "character": 15
+        }
+      },
+      "rule": "reportMissingTypeStubs"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"accuracy_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘accuracy_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, normalize: bool = True, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> (float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+      "range": {
+        "start": {
+          "line": 18,
+          "character": 28
+        },
+        "end": {
+          "line": 18,
+          "character": 42
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"classification_report\"의 형식을 부분적으로 알 수 없습니다.\n  ‘classification_report’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, target_names: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, digits: int | signedinteger[_8Bit] | signedinteger[_16Bit] | signedinteger[_32Bit] | signedinteger[_64Bit] = 2, output_dict: bool = False, zero_division: int | Literal['warn'] = \"warn\") -> (str | dict[Unknown, Unknown])’입니다.",
+      "range": {
+        "start": {
+          "line": 18,
+          "character": 44
+        },
+        "end": {
+          "line": 18,
+          "character": 65
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"f1_score\"의 형식을 부분적으로 알 수 없습니다.\n  ‘f1_score’의 유형이 ‘(y_true: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y_pred: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], *, labels: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, pos_label: str | int = 1, average: Literal['micro', 'macro', 'samples', 'weighted', 'binary'] | None = \"binary\", sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None, zero_division: int | Literal['warn'] = \"warn\") -> (ndarray[tuple[Any, ...], dtype[Any]] | float | floating[_16Bit] | floating[_32Bit] | float64)’입니다.",
+      "range": {
+        "start": {
+          "line": 18,
+          "character": 85
+        },
+        "end": {
+          "line": 18,
+          "character": 93
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"report\"의 형식을 부분적으로 알 수 없습니다.\n  ‘report’의 유형이 ‘dict[str, str | dict[Unknown, Unknown] | tuple[Literal['사회관계'], Literal['신체운동·건강'], Literal['예술경험'], Literal['의사소통'], Literal['자연탐구']] | Any | dict[str, str | dict[Unknown, Unknown]]]’입니다.",
+      "range": {
+        "start": {
+          "line": 33,
+          "character": 4
+        },
+        "end": {
+          "line": 33,
+          "character": 10
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "매개 변수 기본값 식 내에서는 함수 호출 및 변경 가능한 개체를 사용할 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 65,
+          "character": 50
+        },
+        "end": {
+          "line": 65,
+          "character": 74
+        }
+      },
+      "rule": "reportCallInDefaultInitializer"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "매개 변수 기본값 식 내에서는 함수 호출 및 변경 가능한 개체를 사용할 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 66,
+          "character": 50
+        },
+        "end": {
+          "line": 66,
+          "character": 74
+        }
+      },
+      "rule": "reportCallInDefaultInitializer"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"append\"의 형식을 부분적으로 알 수 없습니다.\n  ‘append’의 유형이 ‘(object: Unknown, /) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 96,
+          "character": 8
+        },
+        "end": {
+          "line": 96,
+          "character": 22
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"fit\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit’의 유형이 ‘((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LogisticRegression) | ((X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], y: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str], sample_weight: Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str] | None = None) -> LinearSVC)’입니다.",
+      "range": {
+        "start": {
+          "line": 119,
+          "character": 16
+        },
+        "end": {
+          "line": 119,
+          "character": 30
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"decision_function\"의 형식을 부분적으로 알 수 없습니다.\n  ‘decision_function’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> ndarray[tuple[Any, ...], dtype[Any]]’입니다.",
+      "range": {
+        "start": {
+          "line": 120,
+          "character": 21
+        },
+        "end": {
+          "line": 120,
+          "character": 49
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"i\" is Any",
+      "range": {
+        "start": {
+          "line": 122,
+          "character": 55
+        },
+        "end": {
+          "line": 122,
+          "character": 56
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "Type of \"row_indices\" is Any",
+      "range": {
+        "start": {
+          "line": 122,
+          "character": 77
+        },
+        "end": {
+          "line": 122,
+          "character": 88
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"train_supervised\"의 형식을 부분적으로 알 수 없습니다.\n  ‘train_supervised’의 유형이 ‘(...) -> _FastText’입니다.",
+      "range": {
+        "start": {
+          "line": 127,
+          "character": 20
+        },
+        "end": {
+          "line": 127,
+          "character": 45
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"predicted_labels\"의 형식을 부분적으로 알 수 없습니다.\n  ‘predicted_labels’의 유형이 ‘Unknown | tuple[Any, ...] | tuple[()]’입니다.",
+      "range": {
+        "start": {
+          "line": 142,
+          "character": 12
+        },
+        "end": {
+          "line": 142,
+          "character": 28
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"_\"의 형식을 부분적으로 알 수 없습니다.\n  ‘_’의 유형이 ‘Unknown | ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 142,
+          "character": 30
+        },
+        "end": {
+          "line": 142,
+          "character": 31
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"predict\"의 형식을 부분적으로 알 수 없습니다.\n  ‘predict’의 유형이 ‘(text: Unknown, k: int = 1, threshold: float = 0, on_unicode_error: str = 'strict') -> (tuple[Unknown, Unknown] | tuple[tuple[Any, ...] | tuple[()], ndarray[tuple[Any, ...], dtype[Unknown]]])’입니다.",
+      "range": {
+        "start": {
+          "line": 142,
+          "character": 34
+        },
+        "end": {
+          "line": 142,
+          "character": 47
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"removeprefix\"의 형식을 부분적으로 알 수 없습니다.\n  ‘removeprefix’의 유형이 ‘Unknown | Any’입니다.",
+      "range": {
+        "start": {
+          "line": 144,
+          "character": 28
+        },
+        "end": {
+          "line": 144,
+          "character": 46
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"__new__\" 함수의 \"x\" 매개 변수에 해당합니다.\n  인수 형식이 \"Unknown | Any\"입니다.",
+      "range": {
+        "start": {
+          "line": 144,
+          "character": 28
+        },
+        "end": {
+          "line": 144,
+          "character": 59
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"label\"의 형식을 부분적으로 알 수 없습니다.\n  ‘label’의 유형이 ‘Unknown | Any’입니다.",
+      "range": {
+        "start": {
+          "line": 144,
+          "character": 66
+        },
+        "end": {
+          "line": 144,
+          "character": 71
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"labels\"의 형식을 부분적으로 알 수 없습니다.\n  ‘labels’의 유형이 ‘Unknown | Any’입니다.",
+      "range": {
+        "start": {
+          "line": 145,
+          "character": 20
+        },
+        "end": {
+          "line": 145,
+          "character": 26
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"save_model\"의 형식을 부분적으로 알 수 없습니다.\n  ‘save_model’의 유형이 ‘(path: Unknown) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 148,
+          "character": 12
+        },
+        "end": {
+          "line": 148,
+          "character": 28
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"sort\"의 형식을 부분적으로 알 수 없습니다.\n  ‘sort’의 유형이 ‘Overload[(*, key: None = None, reverse: bool = False) -> None, (*, key: (Unknown) -> (SupportsDunderLT[Any] | SupportsDunderGT[Any]), reverse: bool = False) -> None]’입니다.",
+      "range": {
+        "start": {
+          "line": 150,
+          "character": 4
+        },
+        "end": {
+          "line": 150,
+          "character": 16
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "매개 변수 \"row\"의 형식을 알 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 150,
+          "character": 28
+        },
+        "end": {
+          "line": 150,
+          "character": 31
+        }
+      },
+      "rule": "reportUnknownLambdaType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "람다의 반환 형식 \"tuple[Unknown, Unknown]\"을(를) 부분적으로 알 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 150,
+          "character": 33
+        },
+        "end": {
+          "line": 150,
+          "character": 67
+        }
+      },
+      "rule": "reportUnknownLambdaType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"writer\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writer’의 유형이 ‘DictWriter[Unknown]’입니다.",
+      "range": {
+        "start": {
+          "line": 152,
+          "character": 8
+        },
+        "end": {
+          "line": 152,
+          "character": 14
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"fieldnames\" 매개 변수에 해당합니다.\n  인수 형식이 \"list[Unknown]\"입니다.",
+      "range": {
+        "start": {
+          "line": 152,
+          "character": 51
+        },
+        "end": {
+          "line": 152,
+          "character": 67
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "인수 형식을 알 수 없습니다.\n  인수가 \"__init__\" 함수의 \"iterable\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 152,
+          "character": 56
+        },
+        "end": {
+          "line": 152,
+          "character": 66
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_experiment.py",
+      "severity": "warning",
+      "message": "\"writerows\"의 형식을 부분적으로 알 수 없습니다.\n  ‘writerows’의 유형이 ‘(rowdicts: Iterable[Mapping[Unknown, Any]]) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 154,
+          "character": 8
+        },
+        "end": {
+          "line": 154,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"fasttext\"에 대한 stub 파일을 찾을 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 7,
+          "character": 7
+        },
+        "end": {
+          "line": 7,
+          "character": 15
+        }
+      },
+      "rule": "reportMissingTypeStubs"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"train_unsupervised\"의 형식을 부분적으로 알 수 없습니다.\n  ‘train_unsupervised’의 유형이 ‘(...) -> _FastText’입니다.",
+      "range": {
+        "start": {
+          "line": 29,
+          "character": 16
+        },
+        "end": {
+          "line": 29,
+          "character": 43
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"save_model\"의 형식을 부분적으로 알 수 없습니다.\n  ‘save_model’의 유형이 ‘(path: Unknown) -> None’입니다.",
+      "range": {
+        "start": {
+          "line": 41,
+          "character": 4
+        },
+        "end": {
+          "line": 41,
+          "character": 24
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"vector\"의 형식을 부분적으로 알 수 없습니다.\n  ‘vector’의 유형이 ‘ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 48,
+          "character": 12
+        },
+        "end": {
+          "line": 48,
+          "character": 18
+        }
+      },
+      "rule": "reportUnknownVariableType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"get_word_vector\"의 형식을 부분적으로 알 수 없습니다.\n  ‘get_word_vector’의 유형이 ‘(word: Unknown) -> ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 48,
+          "character": 21
+        },
+        "end": {
+          "line": 48,
+          "character": 46
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "Type of \"value\" is Any",
+      "range": {
+        "start": {
+          "line": 49,
+          "character": 70
+        },
+        "end": {
+          "line": 49,
+          "character": 75
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"normalize\" 함수의 \"X\" 매개 변수에 해당합니다.\n  인수 형식이 \"ndarray[tuple[Any, ...], dtype[Unknown]]\"입니다.",
+      "range": {
+        "start": {
+          "line": 51,
+          "character": 24
+        },
+        "end": {
+          "line": 51,
+          "character": 92
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"stack\" 함수의 \"arrays\" 매개 변수에 해당합니다.\n  인수 형식이 \"list[ndarray[tuple[Any, ...], dtype[Unknown]]]\"입니다.",
+      "range": {
+        "start": {
+          "line": 51,
+          "character": 33
+        },
+        "end": {
+          "line": 51,
+          "character": 91
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"get_sentence_vector\"의 형식을 부분적으로 알 수 없습니다.\n  ‘get_sentence_vector’의 유형이 ‘(text: Unknown) -> ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 51,
+          "character": 34
+        },
+        "end": {
+          "line": 51,
+          "character": 63
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"normalize\" 함수의 \"X\" 매개 변수에 해당합니다.\n  인수 형식이 \"ndarray[tuple[Any, ...], dtype[Unknown]]\"입니다.",
+      "range": {
+        "start": {
+          "line": 52,
+          "character": 22
+        },
+        "end": {
+          "line": 52,
+          "character": 90
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "인수 형식을 부분적으로 알 수 없습니다.\n  인수가 \"stack\" 함수의 \"arrays\" 매개 변수에 해당합니다.\n  인수 형식이 \"list[ndarray[tuple[Any, ...], dtype[Unknown]]]\"입니다.",
+      "range": {
+        "start": {
+          "line": 52,
+          "character": 31
+        },
+        "end": {
+          "line": 52,
+          "character": 89
+        }
+      },
+      "rule": "reportUnknownArgumentType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\fasttext_features.py",
+      "severity": "warning",
+      "message": "\"get_sentence_vector\"의 형식을 부분적으로 알 수 없습니다.\n  ‘get_sentence_vector’의 유형이 ‘(text: Unknown) -> ndarray[tuple[Any, ...], dtype[Unknown]]’입니다.",
+      "range": {
+        "start": {
+          "line": 52,
+          "character": 32
+        },
+        "end": {
+          "line": 52,
+          "character": 61
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\prepare_corpus.py",
+      "severity": "warning",
+      "message": "Type annotation for attribute `model_config` is required because this class is not decorated with `@final`",
+      "range": {
+        "start": {
+          "line": 19,
+          "character": 4
+        },
+        "end": {
+          "line": 19,
+          "character": 16
+        }
+      },
+      "rule": "reportUnannotatedClassAttribute"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\prepare_corpus.py",
+      "severity": "warning",
+      "message": "Type annotation for attribute `model_config` is required because this class is not decorated with `@final`",
+      "range": {
+        "start": {
+          "line": 26,
+          "character": 4
+        },
+        "end": {
+          "line": 26,
+          "character": 16
+        }
+      },
+      "rule": "reportUnannotatedClassAttribute"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\prepare_corpus.py",
+      "severity": "warning",
+      "message": "Type annotation for attribute `model_config` is required because this class is not decorated with `@final`",
+      "range": {
+        "start": {
+          "line": 35,
+          "character": 4
+        },
+        "end": {
+          "line": 35,
+          "character": 16
+        }
+      },
+      "rule": "reportUnannotatedClassAttribute"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\prepare_corpus.py",
+      "severity": "warning",
+      "message": "매개 변수 기본값 식 내에서는 함수 호출 및 변경 가능한 개체를 사용할 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 57,
+          "character": 89
+        },
+        "end": {
+          "line": 59,
+          "character": 5
+        }
+      },
+      "rule": "reportCallInDefaultInitializer"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\prepare_corpus.py",
+      "severity": "warning",
+      "message": "매개 변수 기본값 식 내에서는 함수 호출 및 변경 가능한 개체를 사용할 수 없습니다.",
+      "range": {
+        "start": {
+          "line": 60,
+          "character": 86
+        },
+        "end": {
+          "line": 62,
+          "character": 5
+        }
+      },
+      "rule": "reportCallInDefaultInitializer"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_ablation_vectors.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"all\" 함수의 \"a\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 23,
+          "character": 18
+        },
+        "end": {
+          "line": 23,
+          "character": 62
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_ablation_vectors.py",
+      "severity": "warning",
+      "message": "Argument type is Any\n  인수가 \"assert_array_equal\" 함수의 \"actual\" 매개 변수에 해당합니다.",
+      "range": {
+        "start": {
+          "line": 25,
+          "character": 34
+        },
+        "end": {
+          "line": 25,
+          "character": 55
+        }
+      },
+      "rule": "reportAny"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+      "severity": "warning",
+      "message": "\"fit_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘fit_transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown], y: ndarray[tuple[Any, ...], dtype[Any]] | None = None) -> spmatrix[Any]’입니다.",
+      "range": {
+        "start": {
+          "line": 29,
+          "character": 8
+        },
+        "end": {
+          "line": 29,
+          "character": 32
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+      "severity": "warning",
+      "message": "\"transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘transform’의 유형이 ‘(raw_documents: list[str] | ndarray[tuple[Any, ...], dtype[Any]] | Iterable[Unknown]) -> spmatrix[Any]’입니다.",
+      "range": {
+        "start": {
+          "line": 30,
+          "character": 17
+        },
+        "end": {
+          "line": 30,
+          "character": 37
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    },
+    {
+      "file": "c:\\Users\\chabun\\Documents\\playground\\HYU\\STDT\\Semester 2\\stdt_proj2\\ml\\tests\\test_experiment.py",
+      "severity": "warning",
+      "message": "\"inverse_transform\"의 형식을 부분적으로 알 수 없습니다.\n  ‘inverse_transform’의 유형이 ‘(X: ndarray[tuple[Any, ...], dtype[Any]] | Unknown | spmatrix[Any] | Buffer | _SupportsArray[dtype[Any]] | _NestedSequence[_SupportsArray[dtype[Any]]] | complex | bytes | str | _NestedSequence[complex | bytes | str]) -> list[ndarray[tuple[Any, ...], dtype[Any]]]’입니다.",
+      "range": {
+        "start": {
+          "line": 31,
+          "character": 11
+        },
+        "end": {
+          "line": 31,
+          "character": 39
+        }
+      },
+      "rule": "reportUnknownMemberType"
+    }
+  ],
+  "summary": {
+    "filesAnalyzed": 15,
+    "errorCount": 0,
+    "warningCount": 121,
+    "informationCount": 0,
+    "timeInSec": 13.68
+  }
+}

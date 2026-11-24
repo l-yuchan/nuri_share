@@ -1,0 +1,80 @@
+{
+  "seed": 42,
+  "area_c": 10.0,
+  "level_c": 1.0,
+  "folds": 5,
+  "features": "syllable_2-5_char_tfidf",
+  "python": "3.12.13",
+  "sklearn": "1.9.1",
+  "data_hashes": {
+    "train.csv": "810703446f63c7f3ceafff783469e0bcdfce2729291321ba611d7662b3640c2c",
+    "val.csv": "21c2976c7aa2ec253fc61acb3c74b635faff8db40c35b3c5088e95fc9aac6982"
+  },
+  "counts": {
+    "train_rows": 666,
+    "val_rows": 158,
+    "train_kicce": 572,
+    "val_kicce": 132
+  },
+  "diagnostics": {
+    "groups": 11,
+    "within_group_spearman_mean": 0.7027109050787996,
+    "within_group_spearman_min": 0.41024184123315394,
+    "within_group_spearman_max": 0.9284420617381907,
+    "level_distribution_train": {
+      "1": 143,
+      "2": 143,
+      "3": 143,
+      "4": 143
+    },
+    "level_distribution_val": {
+      "1": 33,
+      "2": 33,
+      "3": 33,
+      "4": 33
+    },
+    "level_mean_by_area": {
+      "사회관계": 2.5,
+      "신체운동·건강": 2.5,
+      "예술경험": 2.5,
+      "의사소통": 2.5,
+      "자연탐구": 2.5
+    },
+    "level_confusion": {
+      "1": {
+        "1": 25,
+        "2": 2,
+        "3": 1,
+        "4": 5
+      },
+      "2": {
+        "1": 5,
+        "2": 22,
+        "3": 1,
+        "4": 5
+      },
+      "3": {
+        "1": 1,
+        "2": 10,
+        "3": 7,
+        "4": 15
+      },
+      "4": {
+        "1": 2,
+        "2": 5,
+        "3": 6,
+        "4": 20
+      }
+    },
+    "area_from_level_only_accuracy": 0.2727272727272727,
+    "area_from_level_only_chance": 0.2,
+    "area_accuracy_kicce": 0.7121212121212122,
+    "area_kicce_only_accuracy": 0.6136363636363636,
+    "area_with_level_probs_accuracy": 0.6212121212121212,
+    "area_with_level_expected_accuracy": 0.6212121212121212,
+    "area_weighted_by_level_accuracy": 0.6060606060606061,
+    "level_mae_with_area_probs": 0.8111305722344646,
+    "level_mae_text_only": 0.8112138798547882,
+    "joint_exact_accuracy": 0.4090909090909091
+  }
+}

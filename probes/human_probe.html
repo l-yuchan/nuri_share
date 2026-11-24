@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>누리과정 5영역 판단 테스트</title>
+<style>
+  :root {
+    --bg: #f4f4f1;
+    --card: #ffffff;
+    --ink: #1b1b19;
+    --muted: #6d6d66;
+    --line: #e2e2dc;
+    --accent: #2b2b28;
+    --l0: #2f6fed;
+    --l1: #d94f38;
+    --l2: #9a4fd0;
+    --l3: #178a5e;
+    --l4: #b5850f;
+    --radius: 16px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131312;
+      --card: #1d1d1b;
+      --ink: #eeeee9;
+      --muted: #a0a099;
+      --line: #32322e;
+      --accent: #eeeee9;
+      --l0: #7aa2ff;
+      --l1: #ff8a72;
+      --l2: #c98cec;
+      --l3: #58d3a4;
+      --l4: #e5bb52;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 20px 10px;
+  }
+  .headrow { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; max-width: 880px; margin: 0 auto; }
+  .headrow strong { font-size: 15px; letter-spacing: -0.01em; }
+  .headrow span { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .bar { max-width: 880px; margin: 8px auto 0; height: 4px; border-radius: 999px; background: var(--line); overflow: hidden; }
+  .bar > div { height: 100%; width: 0%; background: var(--accent); transition: width 180ms ease; }
+  main { max-width: 880px; margin: 0 auto; padding: 22px 20px 64px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px 24px 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.04);
+  }
+  .rowline { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+  .chip {
+    display: inline-block; font-size: 12px; color: var(--muted);
+    border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  .kbdnote { color: var(--muted); font-size: 12px; }
+  kbd {
+    display: inline-block; font-family: inherit; font-size: 11px; line-height: 1;
+    padding: 3px 5px; border: 1px solid var(--line); border-bottom-width: 2px;
+    border-radius: 5px; color: var(--muted); background: var(--bg);
+    margin-right: 6px; min-width: 16px; text-align: center;
+  }
+  .text { font-size: 1.18rem; line-height: 1.8; margin: 6px 0 20px; word-break: keep-all; }
+  .stepnote { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  .labels { display: grid; gap: 8px; }
+  .labels button {
+    display: flex; align-items: center; width: 100%;
+    font: inherit; font-size: 15px; text-align: left; color: var(--ink);
+    background: var(--card); border: 1px solid var(--line); border-left-width: 4px;
+    border-radius: 10px; padding: 11px 14px; cursor: pointer;
+    transition: transform 80ms ease, background 120ms ease, border-color 120ms ease;
+  }
+  .labels button:hover { background: color-mix(in srgb, var(--card) 80%, var(--accent) 6%); }
+  .labels button:active { transform: scale(.995); }
+  .labels button.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .labels button:disabled { opacity: .38; cursor: default; }
+  .labels button[data-choice="0"] { border-left-color: var(--l0); }
+  .labels button[data-choice="1"] { border-left-color: var(--l1); }
+  .labels button[data-choice="2"] { border-left-color: var(--l2); }
+  .labels button[data-choice="3"] { border-left-color: var(--l3); }
+  .labels button[data-choice="4"] { border-left-color: var(--l4); }
+  .ghost {
+    font: inherit; font-size: 13px; color: var(--muted); background: transparent;
+    border: 1px solid var(--line); border-radius: 9px; padding: 8px 12px; cursor: pointer;
+  }
+  .ghost:hover { color: var(--ink); border-color: var(--muted); }
+  .ghost kbd { margin-right: 4px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  .hint {
+    border: 1px dashed var(--line); border-radius: 10px; padding: 10px 12px;
+    color: var(--muted); font-size: 13px; margin: -6px 0 14px;
+  }
+  .hidden { display: none !important; }
+  .panel { margin-top: 16px; }
+  .panel summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  .panel .body { margin-top: 10px; font-size: 13px; color: var(--muted); }
+  .panel .body b { color: var(--ink); font-weight: 600; }
+  .done h2, .reveal h2 { margin: 0 0 6px; font-size: 20px; letter-spacing: -0.02em; }
+  .done p, .reveal p { color: var(--muted); margin: 0 0 16px; font-size: 14px; }
+  .cta {
+    font: inherit; font-size: 15px; font-weight: 600; color: var(--bg); background: var(--accent);
+    border: 0; border-radius: 10px; padding: 12px 18px; cursor: pointer;
+  }
+  .cta:hover { opacity: .9; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 18px 0 8px; }
+  .stat { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .stat b { display: block; font-size: 22px; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .stat span { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
+  .review { display: grid; gap: 10px; margin-top: 16px; }
+  .ritem { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .rtext { font-size: 14px; line-height: 1.6; word-break: keep-all; }
+  .rmeta { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 9px; font-size: 12px; color: var(--muted); }
+  .pill { border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+  .pill.ok { color: var(--l3); font-weight: 600; }
+  .pill.bad { color: var(--l1); font-weight: 600; }
+  .pill.amb { color: var(--l4); font-weight: 600; }
+  .rform { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 10px; }
+  .rform label { display: flex; gap: 6px; align-items: center; white-space: nowrap; font-size: 12px; color: var(--muted); }
+  .rform input[type="text"] { flex: 1 1 180px; }
+  .ok { color: var(--l3); font-weight: 600; }
+  .bad { color: var(--l1); font-weight: 600; }
+  .amb { color: var(--l4); font-weight: 600; }
+  .tiny { font-size: 12px; color: var(--muted); }
+  .export { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+  input[type="text"] {
+    font: inherit; font-size: 13px; color: var(--ink); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 7px; padding: 5px 8px; width: 100%;
+  }
+  .reveal td:first-child { min-width: 0; }
+  @media (max-width: 560px) {
+    main { padding: 14px 12px 48px; }
+    .card { padding: 18px 16px; border-radius: 14px; }
+    .text { font-size: 1.06rem; }
+    header { padding: 10px 12px 8px; }
+    .review { gap: 8px; }
+    .ritem { padding: 11px 12px; }
+    .rtext { font-size: 13.5px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="headrow">
+    <strong>누리과정 5영역 판단 테스트</strong>
+    <span id="progressText" aria-live="polite">0 / 0</span>
+  </div>
+  <div class="bar"><div id="barFill"></div></div>
+</header>
+<main id="app"></main>
+<script>
+"use strict";
+
+const DATA = {"session":"20261121","items":[{"id":"K199","t":"위험한 상황에 대해 교사가 말해주는 이야기를 듣는 중간에 “빨리 뛰면 안 돼요. 다쳐요.”라고 자신의 생각을 말한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-2-05","g":"7J2Y7IKs7IaM7Ya1","k":"control"},{"id":"K655","t":"교사가 여러 종류의 동물 그림카드를 제시하면 동물들이 사는 곳에 따라 동물들을 분류한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-5-09","g":"7J6Q7Jew7YOQ6rWs","k":"hard"},{"id":"K120","t":"블록으로 만든 자동차를 타고 놀이하다가 친구가 빨간색과 초록색 종이로 만든 신호등을 보여주자 “신호등이네! 그럼 네가 저기서 신호등 해줘. 내가 빨간불에 멈출게.”라고 말하며 놀이한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-11","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K190","t":"친구의 스케치북에 선을 그어 친구가 속상해하며 말하지만 바라보지 않는다. 교사가 “친구가 속상하대.”라고 말하자 친구를 바라보다 자신의 스케치북에 그림 그리기를 지속한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-2-05","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"N092","t":"감을 따기 위해 방문한 안나네와 동네 할아버지네 집에서 어른의 말씀을 잘 듣고 감따기를 해 봄","c":"놀이 사례","a":"4,5세","s":"casebook","gid":"CB-p317","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K119","t":"블록으로 만든 자동차를 타고 놀이하다가 친구가 빨간색 종이를 들며 “멈추세요.”라고 말하자 “신호등이네.”라고 말하며 멈춘다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-11","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K196","t":"등원 시 어제 집에서 있었던 일을 이야기할 때 친구의 이야기를 듣고 난 후, “그래, 나도 같이 갈래. 이따가 엄마한테 물어볼게. 놀이터에서 만나서 같이 가자.”라고 대답한다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-2-05","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K457","t":"교사나 친구들이 노래를 부를 때 소리를 내지 않고 입만 움직이거나 관심이 없다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-4-03","g":"7JiI7Iig6rK97ZeY","k":"control"},{"id":"K689","t":"산책 시 개미를 관찰하다가 개미에게 물을 붓는 등 함부로 다루거나 비 온 다음 날 산책 활동 시, 지렁이를 보고 발로 밟는 등 생명을 소중히 여기지 않는다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-5-12","g":"7J6Q7Jew7YOQ6rWs","k":"control"},{"id":"K441","t":"바깥놀이 중 나뭇잎의 질감을 관찰하는 것에 관심을 보이지 않는다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-4-02","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K447","t":"가을이 되어 색깔이 변화한 나뭇잎을 발견하고 “나뭇잎 색깔이 알록달록해요.”라고 이야기하며 교실로 가지고 간다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-4-02","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"N089","t":"감을 따기 위해 나뭇가지를 당기거나 도구를 이용하면서 신체 움직임을 조절함","c":"놀이 사례","a":"4,5세","s":"casebook","gid":"CB-p317","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"control"},{"id":"K677","t":"산책 활동 중에 길가에 피어있는 여러 가지 식물의 잎을 쳐다보지만 관심을 기울이지 않는다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-5-11","g":"7J6Q7Jew7YOQ6rWs","k":"hard"},{"id":"K191","t":"친구의 스케치북에 선을 그어 교사가 “친구 스케치북에 이렇게 했어?”라고 묻자 “그냥 그림 그려 준건데.”라고 말한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-2-05","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K321","t":"역할놀이를 하면서 엄마, 아빠, 동생 등 가족의 역할을 적절하게 말과 행동으로 나타내지 못한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-04","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K324","t":"역할놀이를 하면서 엄마, 아빠, 동생 역할을 하며 가족 간에 따뜻하고 애정적인 말과 행동을 많이 표현한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-04","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K417","t":"놀이 자료 중 다른 나라 의상을 본 친구가 “이건 뭐지?”라고 묻지만 반응이 없다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-12","g":"7IKs7ZqM6rSA6rOE","k":"control"},{"id":"K145","t":"우유를 마시면서 교사가 우유를 마시면 뼈가 튼튼해지고 키가 큰다고 말해주지만 주의 깊게 듣지 않는다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-2-01","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K463","t":"교사가 <태극기>노래를 연주하자 친구들과 함께 노래를 부른다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-4-03","g":"7JiI7Iig6rK97ZeY","k":"control"},{"id":"K450","t":"교사가 “이 스카프를 직접 만져봐도 부드러운 느낌일까?”라고 질문하자 관심을 갖고 만져보고자 한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-4-02","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K443","t":"떨어져 있는 나뭇잎을 주워 손으로 만져보고 “여기 털이 있어서 부드러워.”라고 말한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-4-02","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K648","t":"나뭇잎을 크기와 색으로 분류하다 나뭇잎 모양을 보고 “선생님 잎이 이렇게 뾰족한 것도 있고 뾰족하지 않은 것도 있어요.”하며 잎의 모양으로도 분류한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-5-09","g":"7J6Q7Jew7YOQ6rWs","k":"control"},{"id":"K454","t":"수건돌리기 놀이를 하며 부르는 친구들의 노랫소리에 콧노래로 흥얼거리며 따라 부른다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-4-03","g":"7JiI7Iig6rK97ZeY","k":"control"},{"id":"N016","t":"서로의 편지에 담긴 표현을 존중하고 관심 있게 들여다 봄. 편지 받는 상대를 고려하여 표현을 달리 하기도 함","c":"놀이 사례","a":"3세","s":"casebook","gid":"CB-p309","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K192","t":"친구의 스케치북에 선을 그어 친구가 속상해하며 말하자 친구를 바라보며 “그림 그려주고 싶었어. 미안해.”라고 말하며 미안한 표정을 짓는다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-2-05","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K117","t":"블록으로 만든 자동차를 타고 놀이하던 중 친구가 빨간 색종이로 만든 신호등을 들고 “빨간불입니다. 멈추세요.”라고 이야기하자 그냥 지나간다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-11","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K329","t":"‘가족을 기쁘게 해드리기 위해 내가 할 수 있는 일’에 대해 이야기 나누는 활동에서 말로 표현하지 못한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-3-04","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K152","t":"친구가 말한 의견을 듣고, “좋은 생각이다.”, “그거 해요.”라고 친구의 의견에 동의하는 적절한 표현을 한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-2-01","g":"7J2Y7IKs7IaM7Ya1","k":"control"},{"id":"K422","t":"“Hi”라고 인사한 유아에게 교사가 “Hi, 안녕하세요.”라고 말하자 다가와 “그게 무슨 말이에요?”라고 묻는다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-3-12","g":"7IKs7ZqM6rSA6rOE","k":"control"},{"id":"N097","t":"동네 할아버지께 감과 간식에 대해 감사함을 인사말로 표현함","c":"놀이 사례","a":"4,5세","s":"casebook","gid":"CB-p317","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K674","t":"창밖에 까치가 앉아 있어서 교사가 “우와, 저기 새가 앉아있네.”라고 말하자, 관심을 보이며 창문 가로 다가가 새를 관찰하고자 한다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-5-11","g":"7J6Q7Jew7YOQ6rWs","k":"control"},{"id":"K146","t":"우유를 마시면서 교사의 이야기를 잘 듣지 않지만 교사가 다른 유아들의 대답에 반응해 주자 들어보려고 한다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-2-01","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K118","t":"친구가 빨간 색종이로 만든 신호등을 들고 “빨간불입니다. 멈추세요.”라고 이야기하자 “멈추는 거야?”라고 물어본다. 교사가 “신호등에 빨간불이 켜지면 멈춰보자.”라고 말하자 멈춰서 기다린다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-11","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"N014","t":"편지를 통해 서로 다른 친구에게 전하고픈 생각을 분명히 전하고, 친구의 생각과 감정을 존중하고 이를 고려하며 긍정적인 소통을 이어감","c":"놀이 사례","a":"3세","s":"casebook","gid":"CB-p309","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K323","t":"역할놀이를 하면서 교사가 “아빠 왔다.”라고 말하니 유아가 “아빠, 다녀오셨어요, 여보, 고생했어요.” 라고 껴안으며 흉내를 낸다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-04","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K015","t":"가위로 네모 모양 직선을 따라 종이를 오린다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-02","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K461","t":"교사나 친구들이 우리나라 상징물을 떠올리며 노래를 부를 때, 부르지 않거나 관심이 없다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-4-03","g":"7JiI7Iig6rK97ZeY","k":"control"},{"id":"K645","t":"바깥놀이를 하면서 다양한 나뭇잎을 모아 같은 모양끼리 나누는데 관심을 보이지만 분류하기 어려워한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-5-09","g":"7J6Q7Jew7YOQ6rWs","k":"control"},{"id":"N091","t":"감과 모래를 섞고 개미모래통으로 옮기기 위해 삽을 이용함","c":"놀이 사례","a":"4,5세","s":"casebook","gid":"CB-p317","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K423","t":"선생님에게 “일본에서는 ‘안녕하세요.’를 뭐라고 해요?”라고 물어본다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-3-12","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K016","t":"종이에 그림을 그리고 가위로 그림의 선을 따라 직선과 곡선을 정교하게 오린다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-1-02","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K149","t":"친구들과 동극에 대해 이야기를 하는 중, 교사가 소품에 대해 설명하지만 말하는 것을 듣지 않고 자신의 손을 만진다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-2-01","g":"7J2Y7IKs7IaM7Ya1","k":"control"},{"id":"K127","t":"횡단보도 건너기 활동 중 신호등의 색깔을 확인 후 횡단보도를 건넌다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-1-11","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K419","t":"다른 나라 의상을 들고 교사에게 다가와 “선생님, 저 이거 입을래요.”라고 말한 후, 옷을 입고 친구들과 옷을 관찰한다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-12","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"N010","t":"편지를 주고받는 맥락 안에서 친구 또는 교사와 대화를 이어가기도 함","c":"놀이 사례","a":"3세","s":"casebook","gid":"CB-p309","g":"7J2Y7IKs7IaM7Ya1","k":"hard"},{"id":"K456","t":"수건돌리기 놀이를 할 때, “작은 동물원 노래하자.”라며 노래 부르기를 제안하고 친구들과 함께 노래 부르는 것을 즐긴다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-4-03","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K018","t":"교사가 물통 뚜껑을 반쯤 열어주고 아랫부분을 잡아주자 스스로 뚜껑을 연다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-1-02","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K451","t":"스카프를 만지는 친구들 사이에서 “우리 엄마 손처럼 부드럽다! 엄마 손잡았을 때처럼 기분이 따뜻해졌어.”라고 말한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-4-02","g":"7JiI7Iig6rK97ZeY","k":"hard"},{"id":"K020","t":"물통 뚜껑을 스스로 열어 물을 마신 후에 완전히 닫아놓고, 물통 외의 다양한 병뚜껑을 스스로 열고 닫으며 사용한다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-1-02","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"K679","t":"산책 활동 중에 길가에 피어있는 여러 가지 식물의 잎을 보고 관심을 보이며, 잎의 모양이나 색과 같은 특징에 관심을 보이며 이에 대해 말한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-5-11","g":"7J6Q7Jew7YOQ6rWs","k":"hard"},{"id":"N012","t":"편지, 선물을 받는 친구나 교사가 기뻐할 것을 예상하고 전달함. 세미, 승재가 교사에게 편지를 전하는 과정에서 관계를 돈독히 해감을 즐거워 함","c":"놀이 사례","a":"3세","s":"casebook","gid":"CB-p309","g":"7IKs7ZqM6rSA6rOE","k":"control"},{"id":"K420","t":"다른 나라 의상을 입고 교사에게 다가와 “선생님, 이거 어느 나라 옷이에요? 뭐라고 말해요?”라고 궁금한 것을 물어본다.","c":"놀이","a":"3–5세","s":"kicce","gid":"KI-3-12","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"K332","t":"“아빠가 힘드실까봐 제가 식탁에 숟가락 젓가락을 가지런히 놓았어요. 아빠가 저보고 웃어줘서 기분이 좋았어요.”라고 대답한다.","c":"활동","a":"3–5세","s":"kicce","gid":"KI-3-04","g":"7IKs7ZqM6rSA6rOE","k":"hard"},{"id":"N011","t":"편지를 쓸 때 ㅇ, l, ㅡ같은 형태를 반복하며 글자를 쓰듯이 하고 문자의 상징체계로 썼음을 말하기도 함","c":"놀이 사례","a":"3세","s":"casebook","gid":"CB-p309","g":"7J2Y7IKs7IaM7Ya1","k":"control"},{"id":"K019","t":"물통 뚜껑을 스스로 열어서 물을 마신다.","c":"일상생활","a":"3–5세","s":"kicce","gid":"KI-1-02","g":"7Iug7LK07Jq064+ZwrfqsbTqsJU=","k":"hard"},{"id":"N093","t":"안나네 마당에서 사자성 놀이 중 적절히 대화를 나눠 놀이를 전개시킴","c":"놀이 사례","a":"4,5세","s":"casebook","gid":"CB-p317","g":"7J2Y7IKs7IaM7Ya1","k":"hard"}]};
+const LABELS = ["사회관계", "신체운동·건강", "예술경험", "의사소통", "자연탐구"];
+const STORE_KEY = "nuri-probe-1-" + DATA.session;
+const app = document.getElementById("app");
+const progressText = document.getElementById("progressText");
+const barFill = document.getElementById("barFill");
+
+const items = DATA.items;
+let S = loadState();
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && parsed.answers && typeof parsed.idx === "number") return parsed;
+    }
+  } catch (err) {
+    console.warn("저장된 진행을 읽지 못했습니다.", err);
+  }
+  return { idx: 0, answers: {}, started: Date.now(), revealed: false };
+}
+
+function save() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); } catch (err) { console.warn(err); }
+}
+
+function answerFor(id) {
+  if (!S.answers[id]) S.answers[id] = { c1: null, c2: null, amb: false, hint: false, t0: Date.now(), ms: 0, step: 1, suspect: false, note: "" };
+  return S.answers[id];
+}
+
+function answeredCount() {
+  return items.filter((it) => {
+    const a = S.answers[it.id];
+    return a && (a.amb || a.c1 !== null);
+  }).length;
+}
+
+function updateProgress() {
+  const n = answeredCount();
+  progressText.textContent = n + " / " + items.length;
+  barFill.style.width = (100 * n / items.length) + "%";
+}
+
+function el(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+function labelButton(i, disabled, selected) {
+  const b = el("button");
+  b.dataset.choice = String(i);
+  if (disabled) b.disabled = true;
+  if (selected) b.classList.add("sel");
+  const k = document.createElement("kbd");
+  k.textContent = String(i + 1);
+  b.appendChild(k);
+  b.appendChild(document.createTextNode(LABELS[i]));
+  return b;
+}
+
+function render() {
+  app.textContent = "";
+  updateProgress();
+  if (S.revealed) { renderReveal(); return; }
+  if (S.idx >= items.length) { renderDone(); return; }
+  renderItem();
+}
+
+function renderItem() {
+  const item = items[S.idx];
+  const a = answerFor(item.id);
+  if (!a.t0) a.t0 = Date.now();
+  const card = el("section", "card");
+
+  const top = el("div", "rowline");
+  top.appendChild(el("span", "chip", item.id));
+  top.appendChild(el("span", "kbdnote", "h 힌트 · ← 이전 · 6 판단 어려움"));
+  card.appendChild(top);
+
+  card.appendChild(el("p", "text", item.t));
+
+  if (a.hint) {
+    card.appendChild(el("div", "hint", "맥락: " + (item.c || "없음") + " · 연령: " + (item.a || "없음") + " · 출처: " + (item.s === "kicce" ? "KICCE 척도" : "사례집")));
+  }
+
+  const labels = el("div", "labels");
+  const step = a.step === 2 ? 2 : 1;
+  card.appendChild(el("p", "stepnote", step === 1 ? "가장 적합한 영역을 고르세요." : "1순위: " + LABELS[a.c1] + " — 2순위를 고르거나 Enter로 건너뛰세요."));
+  for (let i = 0; i < LABELS.length; i += 1) {
+    const disabled = step === 2 && i === a.c1;
+    labels.appendChild(labelButton(i, disabled, step === 2 && i === a.c1));
+  }
+  card.appendChild(labels);
+
+  const row = el("div", "row");
+  const ambBtn = el("button", "ghost");
+  ambBtn.dataset.act = "ambiguous";
+  ambBtn.appendChild(document.createTextNode("판단 어려움 "));
+  const k6 = document.createElement("kbd"); k6.textContent = "6"; ambBtn.appendChild(k6);
+  row.appendChild(ambBtn);
+
+  if (step === 2) {
+    const skip = el("button", "ghost");
+    skip.dataset.act = "skip2";
+    skip.appendChild(document.createTextNode("2순위 없음 "));
+    const ke = document.createElement("kbd"); ke.textContent = "Enter"; skip.appendChild(ke);
+    row.appendChild(skip);
+  }
+  if (S.idx > 0) {
+    const prev = el("button", "ghost");
+    prev.dataset.act = "prev";
+    prev.appendChild(document.createTextNode("이전 "));
+    const kb = document.createElement("kbd"); kb.textContent = "←"; prev.appendChild(kb);
+    row.appendChild(prev);
+  }
+  card.appendChild(row);
+
+  if (S.idx === 0) card.appendChild(definitionsPanel());
+  app.appendChild(card);
+  updateProgress();
+}
+
+function definitionsPanel() {
+  const d = document.createElement("details");
+  d.className = "panel";
+  const s = document.createElement("summary");
+  s.textContent = "영역 정의와 경계 규칙 보기";
+  d.appendChild(s);
+  const body = document.createElement("div");
+  body.className = "body";
+  body.innerHTML = "<ul style=\"margin:0 0 10px;padding-left:18px\"><li><b>사회관계</b> — 나를 알고 존중하기 · 더불어 생활하기 · 사회에 관심 가지기<br>자기 인식과 조절, 또래와 교사와의 관계, 협력과 갈등 해결, 규칙과 예절, 가족·이웃·지역사회·문화와 다양성에 대한 관심.</li><li><b>신체운동·건강</b> — 신체활동 즐기기 · 건강하게 생활하기 · 안전하게 생활하기<br>대근육과 소근육 움직임, 균형과 이동, 도구 조작과 신체 인식, 식사·수면·위생, 질병 예방과 바른 자세, 교통·생활 안전과 위험 대처.</li><li><b>예술경험</b> — 아름다움 찾아보기 · 창의적으로 표현하기 · 예술 감상하기<br>자연과 사물, 소리와 움직임에서 아름다움 느끼기, 미술·음악·신체 표현·극놀이로 창의적으로 표현하기, 작품과 공연을 감상하고 반응하기.</li><li><b>의사소통</b> — 듣기와 말하기 · 읽기와 쓰기에 관심 가지기 · 책과 이야기 즐기기<br>주의 깊게 듣기, 상황에 맞게 말하기, 어휘와 대화 주고받기, 글자와 상징 인식, 읽기와 쓰기 시도, 그림책과 이야기를 듣고 이해하고 꾸미기.</li><li><b>자연탐구</b> — 탐구과정 즐기기 · 생활 속에서 탐구하기 · 자연과 더불어 살기<br>관찰·질문·예측·실험·비교, 수·공간·도형·측정·분류·규칙, 물질·생명·날씨·계절, 자연 현상과 생명체에 대한 관심과 존중, 환경 보호.</li></ul><p style=\"margin:0 0 6px\"><b>경계 규칙</b></p><ul style=\"margin:0;padding-left:18px\"><li>판단 기준은 '유아가 무엇을 하려 했는가'(행동의 목적)이다. 같은 장면도 목적이 다르면 영역이 달라진다.</li><li>관계·감정·규칙·예절이 초점이면 사회관계. 말하고 듣고 읽고 쓰는 언어 행위 자체가 초점이면 의사소통.</li><li>몸을 움직이거나 손으로 도구를 조작하는 것이 초점이면 신체운동·건강. 재료와 자연을 관찰해 알아내는 것이 초점이면 자연탐구.</li><li>아름다움을 느끼거나 표현하고 감상하는 것이 초점이면 예술경험. 자연물을 보며 심미감을 느낀 것이 초점이면 예술, 차이를 발견하고 관찰한 것이 초점이면 자연탐구.</li><li>교사의 지시를 따랐다는 사실만으로는 영역을 정할 수 없다. 유아가 실제로 무엇을 배우고 표현했는지 본다.</li><li>말로 감정을 표현한 장면은 의사소통일 수 있고, 관계 회복과 배려가 초점이면 사회관계다. 이 경계가 원자료에서 가장 자주 혼동된다.</li></ul>";
+  d.appendChild(body);
+  return d;
+}
+
+function advance() {
+  const item = items[S.idx];
+  const a = answerFor(item.id);
+  a.ms = a.ms || (Date.now() - (a.t0 || Date.now()));
+  a.step = 1;
+  S.idx += 1;
+  save();
+  render();
+}
+
+function choose(i) {
+  const item = items[S.idx];
+  const a = answerFor(item.id);
+  if (a.step !== 2) {
+    a.c1 = i;
+    a.step = 2;
+    a.ms = Date.now() - (a.t0 || Date.now());
+    save();
+    render();
+    return;
+  }
+  if (i === a.c1) return;
+  a.c2 = i;
+  advance();
+}
+
+function markAmbiguous() {
+  const item = items[S.idx];
+  const a = answerFor(item.id);
+  a.amb = true;
+  a.c1 = null;
+  a.c2 = null;
+  advance();
+}
+
+function goPrev() {
+  if (S.idx === 0) return;
+  S.idx -= 1;
+  const a = answerFor(items[S.idx].id);
+  a.step = a.c2 !== null ? 1 : (a.c1 !== null ? 2 : 1);
+  if (a.amb) { a.amb = false; }
+  save();
+  render();
+}
+
+function toggleHint() {
+  const item = items[S.idx];
+  const a = answerFor(item.id);
+  a.hint = true;
+  save();
+  render();
+}
+
+function renderDone() {
+  const wrap = el("section", "card done");
+  wrap.appendChild(el("h2", null, "분류를 마쳤습니다"));
+  wrap.appendChild(el("p", null, "이제 결과를 확인할 수 있습니다. 정답은 아직 공개되지 않았습니다."));
+  const row = el("div", "row");
+  const btn = el("button", "cta", "결과 보기 (정답 공개)");
+  btn.dataset.act = "reveal";
+  row.appendChild(btn);
+  wrap.appendChild(row);
+  app.appendChild(wrap);
+}
+
+function b64utf8(s) {
+  const bin = atob(s);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i += 1) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder("utf-8").decode(bytes);
+}
+
+function renderReveal() {
+  const wrap = el("section", "card reveal");
+  wrap.appendChild(el("h2", null, "결과"));
+  wrap.appendChild(el("p", null, "정답과 비교해 보세요. 라벨이 잘못됐다고 판단되는 항목은 체크해 주세요."));
+
+  const rows = items.map((it) => {
+    const a = S.answers[it.id] || {};
+    const gold = b64utf8(it.g);
+    const amb = !!a.amb;
+    const correct = !amb && a.c1 !== null && LABELS[a.c1] === gold;
+    return { it, a, gold, amb, correct };
+  });
+  const answered = rows.filter((r) => r.amb || r.a.c1 !== null);
+  const correct = answered.filter((r) => r.correct).length;
+  const top2 = answered.filter((r) => r.correct || (r.a.c2 !== null && LABELS[r.a.c2] === r.gold)).length;
+  const ambCount = answered.filter((r) => r.amb).length;
+  const times = answered.filter((r) => r.a.ms).map((r) => r.a.ms);
+  const avg = times.length ? Math.round(times.reduce((x, y) => x + y, 0) / times.length / 1000) : 0;
+
+  const stats = el("div", "summary");
+  const stat = (value, caption) => {
+    const d = el("div", "stat");
+    d.appendChild(el("b", null, value));
+    d.appendChild(el("span", null, caption));
+    return d;
+  };
+  stats.appendChild(stat(correct + " / " + answered.length, "1순위 정답 (정확도 " + (100 * correct / Math.max(1, answered.length)).toFixed(1) + "%)"));
+  stats.appendChild(stat(top2 + " / " + answered.length, "2순위 안에 정답 포함"));
+  stats.appendChild(stat(String(ambCount), "판단 어려움으로 표시"));
+  stats.appendChild(stat(avg + "초", "문항당 평균 시간"));
+  wrap.appendChild(stats);
+
+  const stratum = (name) => {
+    const set = rows.filter((r) => r.it.k === name);
+    const ok = set.filter((r) => r.correct).length;
+    const doneN = set.filter((r) => r.amb || r.a.c1 !== null).length;
+    return { name, ok, doneN };
+  };
+  const hard = stratum("hard");
+  const control = stratum("control");
+  const note = el("p", "tiny");
+  note.textContent = "어려운 항목(모델 오답·저신뢰) " + hard.ok + "/" + hard.doneN + " · 대조 항목(모델 고신뢰 정답) " + control.ok + "/" + control.doneN;
+  wrap.appendChild(note);
+
+  const review = el("div", "review");
+  rows.forEach(({ it, a, gold, amb, correct }) => {
+    const box = el("div", "ritem");
+    box.appendChild(el("div", "rtext", it.t));
+
+    const meta = el("div", "rmeta");
+    if (amb) {
+      meta.appendChild(el("span", "pill amb", "판단 어려움"));
+      meta.appendChild(el("span", null, "정답 " + gold));
+    } else if (a.c1 === null || a.c1 === undefined) {
+      meta.appendChild(el("span", "pill", "미응답"));
+      meta.appendChild(el("span", null, "정답 " + gold));
+    } else if (correct) {
+      meta.appendChild(el("span", "pill ok", "✓ " + LABELS[a.c1] + " = 정답"));
+    } else {
+      meta.appendChild(el("span", "pill bad", "✗ " + LABELS[a.c1] + " → 정답 " + gold));
+    }
+    meta.appendChild(el("span", null, "2순위 " + (a.c2 === null || a.c2 === undefined ? "없음" : LABELS[a.c2])));
+    meta.appendChild(el("span", null, a.ms ? (a.ms / 1000).toFixed(1) + "초" : "-"));
+    meta.appendChild(el("span", null, it.id + (a.hint ? " · 힌트 사용" : "")));
+    box.appendChild(meta);
+
+    const form = el("div", "rform");
+    const label = el("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !!a.suspect;
+    cb.dataset.suspect = it.id;
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode("라벨 오류 의심"));
+    form.appendChild(label);
+    const input = document.createElement("input");
+    input.type = "text";
+    input.placeholder = "메모 (선택): 왜 이 라벨이 애매한지";
+    input.value = a.note || "";
+    input.dataset.note = it.id;
+    form.appendChild(input);
+    box.appendChild(form);
+
+    review.appendChild(box);
+  });
+  wrap.appendChild(review);
+
+  const exp = el("div", "export");
+  const csvBtn = el("button", "cta", "CSV 내려받기");
+  csvBtn.dataset.act = "export-csv";
+  const jsonBtn = el("button", "ghost", "JSON 내려받기");
+  jsonBtn.dataset.act = "export-json";
+  const resetBtn = el("button", "ghost", "진행 초기화");
+  resetBtn.dataset.act = "reset";
+  exp.appendChild(csvBtn);
+  exp.appendChild(jsonBtn);
+  exp.appendChild(resetBtn);
+  wrap.appendChild(exp);
+  app.appendChild(wrap);
+}
+
+function download(name, text, type) {
+  const blob = new Blob([text], { type: type + ";charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = name;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function exportRows() {
+  return items.map((it) => {
+    const a = S.answers[it.id] || {};
+    const gold = b64utf8(it.g);
+    const amb = !!a.amb;
+    const c1 = a.c1 === null || a.c1 === undefined ? "" : LABELS[a.c1];
+    return {
+      id: it.id,
+      source: it.s,
+      group_id: it.gid,
+      stratum: it.k,
+      choice1: c1,
+      choice2: a.c2 === null || a.c2 === undefined ? "" : LABELS[a.c2],
+      ambiguous: amb ? "yes" : "no",
+      hint_used: a.hint ? "yes" : "no",
+      elapsed_ms: a.ms ? Math.round(a.ms) : "",
+      gold: gold,
+      correct: amb ? "no" : (c1 === gold ? "yes" : "no"),
+      suspect_label: a.suspect ? "yes" : "no",
+      note: (a.note || "").replace(/[\r\n]+/g, " "),
+    };
+  });
+}
+
+function exportCsv() {
+  const rows = exportRows();
+  const cols = Object.keys(rows[0]);
+  const esc = (v) => {
+    const s = String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const text = "\ufeff" + [cols.join(",")].concat(rows.map((r) => cols.map((c) => esc(r[c])).join(","))).join("\r\n") + "\r\n";
+  download("human_probe_results.csv", text, "text/csv");
+}
+
+app.addEventListener("click", (ev) => {
+  const btn = ev.target.closest("button");
+  if (!btn) return;
+  if (btn.dataset.choice !== undefined) { choose(Number(btn.dataset.choice)); return; }
+  const act = btn.dataset.act;
+  if (act === "ambiguous") markAmbiguous();
+  else if (act === "skip2") advance();
+  else if (act === "prev") goPrev();
+  else if (act === "reveal") { S.revealed = true; save(); render(); }
+  else if (act === "export-csv") exportCsv();
+  else if (act === "export-json") {
+    download("human_probe_results.json", JSON.stringify({ session: DATA.session, exported_at: new Date().toISOString(), rows: exportRows() }, null, 2), "application/json");
+  } else if (act === "reset") {
+    if (confirm("진행 상황과 응답을 모두 지우고 처음부터 시작할까요? 내려받지 않은 결과는 사라집니다.")) {
+      localStorage.removeItem(STORE_KEY);
+      S = { idx: 0, answers: {}, started: Date.now(), revealed: false };
+      save();
+      render();
+    }
+  }
+});
+
+app.addEventListener("change", (ev) => {
+  const t = ev.target;
+  if (t.dataset && t.dataset.suspect) {
+    const a = answerFor(t.dataset.suspect);
+    a.suspect = t.checked;
+    save();
+  }
+});
+
+app.addEventListener("input", (ev) => {
+  const t = ev.target;
+  if (t.dataset && t.dataset.note) {
+    const a = answerFor(t.dataset.note);
+    a.note = t.value;
+    save();
+  }
+});
+
+document.addEventListener("keydown", (ev) => {
+  if (S.revealed) return;
+  const tag = ev.target.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA") return;
+  if (S.idx >= items.length) {
+    if (ev.key === "Enter") { S.revealed = true; save(); render(); }
+    return;
+  }
+  if (ev.key >= "1" && ev.key <= "5") { choose(Number(ev.key) - 1); ev.preventDefault(); return; }
+  if (ev.key === "6") { markAmbiguous(); ev.preventDefault(); return; }
+  if (ev.key === "h" || ev.key === "H") { toggleHint(); ev.preventDefault(); return; }
+  if (ev.key === "Backspace" || ev.key === "ArrowLeft") { goPrev(); ev.preventDefault(); return; }
+  if (ev.key === "Enter") {
+    const item = items[S.idx];
+    const a = answerFor(item.id);
+    if (a.step === 2) { advance(); ev.preventDefault(); }
+  }
+  if (ev.key === "Escape") { ev.preventDefault(); }
+});
+
+render();
+</script>
+</body>
+</html>
